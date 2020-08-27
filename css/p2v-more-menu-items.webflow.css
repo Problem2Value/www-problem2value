@@ -636,9 +636,9 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Dusseldorf-Homepage-Background.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Dusseldorf-Homepage-Background.jpg');
-  background-position: 0px 0px, 50% 0%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.72)), to(rgba(0, 0, 0, 0.72))), url('../images/Problem2ValueHero2.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url('../images/Problem2ValueHero2.jpg');
+  background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   -o-object-fit: cover;
   object-fit: cover;
@@ -1000,8 +1000,8 @@ a:hover {
 }
 
 .grid {
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
