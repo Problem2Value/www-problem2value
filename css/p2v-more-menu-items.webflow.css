@@ -595,12 +595,12 @@ a:hover {
 }
 
 .navbar--link:hover {
-  background-color: #fe4a49;
+  background-color: #2a9d8f;
   color: #f7f7f9;
 }
 
 .navbar--link.w--current {
-  background-color: #fe4a49;
+  background-color: #2a9d8f;
   color: #f7f7f9;
 }
 
@@ -1121,6 +1121,56 @@ a:hover {
 .image-5 {
   width: 60%;
   height: 60%;
+}
+
+.hero-contact-success {
+  position: absolute;
+  z-index: 10;
+  display: block;
+  width: 100%;
+  height: 60vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/success.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/success.jpg');
+  background-position: 0px 0px, 100% 40%;
+  background-size: auto, cover;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.section-hero-sub-result {
+  height: 60vh;
+  margin-bottom: -20px;
+}
+
+.hero-wrapper-sub-result {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: -360px;
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 240px;
+  padding-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 991px) {
