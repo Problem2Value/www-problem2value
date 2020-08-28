@@ -109,6 +109,9 @@ a:hover {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-align-content: space-between;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
 }
 
 .flexcolwrap.inversecolors {
@@ -121,6 +124,10 @@ a:hover {
   width: 50%;
   margin-bottom: 15px;
   padding: 10px 15px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .heading {
@@ -584,6 +591,7 @@ a:hover {
 
 .slide-nav {
   z-index: 400;
+  display: none;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
 }
@@ -602,11 +610,6 @@ a:hover {
 .navbar--link.w--current {
   background-color: #2a9d8f;
   color: #f7f7f9;
-}
-
-.section-what-we-do {
-  margin-top: 70px;
-  padding-top: 0px;
 }
 
 .h2--section-header {
@@ -636,8 +639,8 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.72)), to(rgba(0, 0, 0, 0.72))), url('../images/Problem2ValueHero2.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url('../images/Problem2ValueHero2.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/TeamWorkshop.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/TeamWorkshop.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   -o-object-fit: cover;
@@ -652,7 +655,7 @@ a:hover {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
   background-position: 0px 0px;
   background-size: 125px;
   -o-object-fit: cover;
@@ -681,6 +684,10 @@ a:hover {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #f7f7f9;
+}
+
+.what-we-do__description {
+  margin-bottom: 20px;
 }
 
 .what-we-do__item {
@@ -800,7 +807,7 @@ a:hover {
   display: block;
   width: 100%;
   height: 20vh;
-  margin-top: 160px;
+  margin-top: 140px;
   padding-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -828,9 +835,9 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.13)), to(rgba(0, 0, 0, 0.13))), url('../images/Postits-Facilitation-2400.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13)), url('../images/Postits-Facilitation-2400.jpg');
-  background-position: 0px 0px, 50% 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.58)), to(rgba(0, 0, 0, 0.58))), url('../images/Problem2ValueHero2.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url('../images/Problem2ValueHero2.jpg');
+  background-position: 0px 0px, 100% 38%;
   background-size: auto, cover;
   -o-object-fit: cover;
   object-fit: cover;
@@ -993,7 +1000,7 @@ a:hover {
   align-items: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Contact-Hello.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Contact-Hello.jpg');
-  background-position: 0px 0px, 100% 40%;
+  background-position: 0px 0px, 100% 58%;
   background-size: auto, cover;
   -o-object-fit: cover;
   object-fit: cover;
@@ -1173,6 +1180,117 @@ a:hover {
   align-items: flex-start;
 }
 
+.flex1col {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 0px;
+}
+
+.flexcolwrap--hero {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: space-between;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+}
+
+.flexcolwrap--hero.inversecolors {
+  padding-top: 26px;
+  padding-bottom: 0px;
+  background-color: #2a9d8f;
+}
+
+.block-quote {
+  border-left-width: 3px;
+  border-left-color: #fe4a49;
+}
+
+.field-label {
+  font-size: 16px;
+}
+
+.field-label-2 {
+  font-size: 16px;
+}
+
+.cta-button-spacing {
+  margin-top: 20px;
+}
+
+.flex2col-bg {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #2a9d8f;
+}
+
+.field-labell--inverse {
+  color: #f7f7f9;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section-training-bg {
+  position: static;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f27127;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.image-6 {
+  border-radius: 20px;
+}
+
+.list {
+  color: #f7f7f9;
+  line-height: 24px;
+  list-style-type: disc;
+}
+
+.grid-3 {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.div-block-3 {
+  width: 50%;
+}
+
+.text-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Fa solid 900', sans-serif;
+  color: #00a7e1;
+  font-size: 100px;
+}
+
 @media screen and (max-width: 991px) {
   .menu-button {
     color: #f7f7f9;
@@ -1205,6 +1323,19 @@ a:hover {
     margin-left: 10px;
   }
   .flex3col {
+    width: 100%;
+  }
+  .flex1col {
+    width: 100%;
+  }
+  .flexcolwrap--hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .flex2col-bg {
     width: 100%;
   }
 }
