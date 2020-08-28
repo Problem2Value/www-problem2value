@@ -264,6 +264,7 @@ a:hover {
 }
 
 .cta-button.inverse-button {
+  width: 100%;
   background-color: #fff;
   color: #2a9d8f;
 }
@@ -1222,7 +1223,7 @@ a:hover {
 }
 
 .cta-button-spacing {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .flex2col-bg {
@@ -1291,6 +1292,90 @@ a:hover {
   font-size: 100px;
 }
 
+.flexcolwrapred {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: space-between;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  background-color: #fe4a49;
+}
+
+.flexcolwrapred.inversecolors {
+  padding-top: 26px;
+  padding-bottom: 0px;
+  background-color: #2a9d8f;
+}
+
+.flex2colbootcamp {
+  width: 50%;
+  margin-bottom: 0px;
+  padding: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.cta-button-onred {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #00a7e1;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  color: #f7f7f9;
+  font-weight: 400;
+  text-align: center;
+}
+
+.cta-button-onred:hover {
+  background-color: #264653;
+  color: #fff;
+}
+
+.cta-button-onred.ghost-button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2a9d8f;
+  background-color: transparent;
+  color: #2a9d8f;
+}
+
+.cta-button-onred.ghost-button:hover {
+  border-color: #fe4a49;
+  background-color: #f7f7f9;
+  color: #fe4a49;
+}
+
+.cta-button-onred.ghost-button.inverse-ghost {
+  border-color: #fff;
+  color: #fff;
+}
+
+.cta-button-onred.ghost-button.inverse-ghost:hover {
+  border-color: #fe4a49;
+  background-color: #f7f7f9;
+  color: #fe4a49;
+}
+
+.cta-button-onred.inverse-button {
+  width: 100%;
+  background-color: #fff;
+  color: #fe4a49;
+}
+
+.cta-button-onred.inverse-button:hover {
+  background-color: #264653;
+  color: #f7f7f9;
+}
+
 @media screen and (max-width: 991px) {
   .menu-button {
     color: #f7f7f9;
@@ -1338,6 +1423,16 @@ a:hover {
   .flex2col-bg {
     width: 100%;
   }
+  .flexcolwrapred {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .flex2colbootcamp {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1374,6 +1469,9 @@ a:hover {
     line-height: 22px;
   }
   .cta-button {
+    font-size: 15px;
+  }
+  .cta-button-onred {
     font-size: 15px;
   }
 }
