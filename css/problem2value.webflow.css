@@ -641,7 +641,7 @@ a:hover {
   position: static;
 }
 
-.what-we-do__description {
+.grid-item-description {
   margin-bottom: 20px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -716,53 +716,6 @@ a:hover {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-}
-
-.hero-innovation {
-  position: absolute;
-  z-index: 10;
-  display: block;
-  width: 100%;
-  height: 45vh;
-  min-height: 45vh;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.58)), to(rgba(0, 0, 0, 0.58))), url('../images/Problem2ValueHero2.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url('../images/Problem2ValueHero2.jpg');
-  background-position: 0px 0px, 100% 38%;
-  background-size: auto, cover;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-.hero-staffing {
-  position: absolute;
-  z-index: 10;
-  display: block;
-  width: 100%;
-  height: 45vh;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Programming-Staffing-2400.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Programming-Staffing-2400.jpg');
-  background-position: 0px 0px, 50% 100%;
-  background-size: auto, cover;
-  -o-object-fit: cover;
-  object-fit: cover;
 }
 
 .h1--logo-name-footer {
@@ -851,29 +804,6 @@ a:hover {
   background-color: #2a9d8f;
 }
 
-.hero-contact {
-  position: absolute;
-  z-index: 10;
-  display: block;
-  width: 100%;
-  height: 45vh;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Contact-Hello.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Contact-Hello.jpg');
-  background-position: 0px 0px, 100% 58%;
-  background-size: auto, cover;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
 .grid {
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -903,55 +833,9 @@ a:hover {
   font-size: 18px;
 }
 
-.hero-impressum {
-  position: absolute;
-  z-index: 10;
-  display: block;
-  width: 100%;
-  height: 45vh;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/dmitrij-paskevic-YjVa-F9P9kk-unsplash.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/dmitrij-paskevic-YjVa-F9P9kk-unsplash.jpg');
-  background-position: 0px 0px, 50% 100%;
-  background-size: auto, cover;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
 .link-2 {
   font-family: 'Fa solid 900', sans-serif;
   text-decoration: underline;
-}
-
-.hero-privacy {
-  position: absolute;
-  z-index: 10;
-  display: block;
-  width: 100%;
-  height: 45vh;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/matthew-henry-fPxOowbR6ls-unsplash.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/matthew-henry-fPxOowbR6ls-unsplash.jpg');
-  background-position: 0px 0px, 50% 0%;
-  background-size: auto, cover;
-  -o-object-fit: cover;
-  object-fit: cover;
 }
 
 .hero-contact-success {
@@ -980,28 +864,6 @@ a:hover {
 .section-hero-sub-result {
   height: 60vh;
   margin-bottom: -20px;
-}
-
-.hero-wrapper-sub-result {
-  position: relative;
-  left: 0%;
-  top: 0%;
-  right: auto;
-  bottom: -360px;
-  display: block;
-  width: 100%;
-  height: 20vh;
-  margin-top: 240px;
-  padding-top: 0px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
 }
 
 .flex1col {
@@ -1232,7 +1094,7 @@ a:hover {
   margin-bottom: 60px;
 }
 
-.what-we-do__quotes {
+.grid-item-quotes {
   margin-bottom: 20px;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
@@ -1258,7 +1120,7 @@ a:hover {
   text-align: left;
 }
 
-.grid-item--button {
+.grid-item--with-button {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1287,7 +1149,7 @@ a:hover {
   text-decoration: none;
 }
 
-.grid-item--button:hover {
+.grid-item--with-button:hover {
   background-color: #2a9d8f;
 }
 
@@ -1350,14 +1212,14 @@ a:hover {
   grid-template-rows: auto;
 }
 
-.link-linkedin {
+.link-social {
   font-family: 'Fa brands 400', sans-serif;
   color: #0073b1;
   font-size: 35px;
   line-height: 45px;
 }
 
-.link-linkedin.invese-link {
+.link-social.invese-link {
   color: #f7f7f9;
 }
 
@@ -1383,13 +1245,6 @@ a:hover {
 
 .body-3 {
   box-shadow: 1px 1px 3px 0 #000;
-}
-
-.link-twitter {
-  font-family: 'Fa brands 400', sans-serif;
-  color: #00acee;
-  font-size: 35px;
-  line-height: 45px;
 }
 
 .social-link {
@@ -1427,7 +1282,7 @@ a:hover {
   border-bottom: 2px solid #2a9d8f;
 }
 
-.text-block-4 {
+.founder-title {
   margin-top: -10px;
   line-height: 24px;
 }
@@ -1597,8 +1452,15 @@ a:hover {
   .flexcolwrap--hero {
     margin-right: 20px;
   }
+  .mysection {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .h3--claim-sub {
     margin-top: -20px;
+  }
+  .grid-item--with-button {
+    padding: 10px;
   }
   .h2--package-header {
     font-size: 50px;
@@ -1616,7 +1478,9 @@ a:hover {
     grid-template-columns: 1fr;
   }
   .grid-3-to-1-column {
-    grid-row-gap: 39px;
+    margin-top: 10px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -1701,9 +1565,17 @@ a:hover {
     -ms-flex-direction: row;
     flex-direction: row;
   }
+  .fa-service-icon__inverse {
+    font-size: 50px;
+    line-height: 30px;
+  }
   .text-field-form {
     font-size: 22px;
     line-height: 30px;
+  }
+  .h4--inverse__box {
+    font-size: 35px;
+    line-height: 40px;
   }
   .h3--claim-sub {
     margin-top: -10px;
@@ -1769,6 +1641,17 @@ a:hover {
   .cta-button {
     font-size: 15px;
   }
+  .cta-button.ghost-button {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .cta-button.ghost-button-form {
+    padding: 10px;
+  }
+  .link {
+    font-size: 20px;
+    line-height: 22px;
+  }
   .hero-wrapper {
     margin-top: -20px;
   }
@@ -1785,13 +1668,35 @@ a:hover {
     height: auto;
     min-height: auto;
   }
+  .hero-sub {
+    height: 40vh;
+    min-height: 40vh;
+  }
+  .hero-wrapper-sub {
+    margin-top: 80px;
+  }
   .h2--inverse {
     font-size: 30px;
     line-height: 40px;
   }
+  .section-hero-sub {
+    height: 40vh;
+  }
+  .hero-contact-success {
+    min-height: 60vh;
+  }
+  .arrowdown {
+    width: 60%;
+  }
+  .flex1col {
+    margin-bottom: 110px;
+  }
   .mysection {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+  .block-quote__inverse {
+    font-size: 20px;
+    line-height: 22px;
   }
   .p--very-small {
     font-size: 13px;
@@ -1800,12 +1705,16 @@ a:hover {
   .form-box {
     padding: 0px;
   }
-  .h4--inverse__box {
-    font-size: 40px;
+  .grid-item-quotes {
+    margin-bottom: 0px;
   }
   .h3--claim-sub {
     font-size: 20px;
     line-height: 25px;
+  }
+  .sub-header-bold {
+    font-size: 20px;
+    line-height: 22px;
   }
   .h2--package-header {
     margin-bottom: 5px;
@@ -1814,8 +1723,18 @@ a:hover {
     font-size: 30px;
     line-height: 35px;
   }
+  .fake-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 22px;
+  }
   .grid-column-image {
     padding: 0px;
+  }
+  .link-small {
+    font-size: 13px;
+    line-height: 22px;
   }
   .grid-3-columns-footer {
     grid-column-gap: 10px;
@@ -1823,35 +1742,63 @@ a:hover {
     -ms-grid-columns: 100%;
     grid-template-columns: 100%;
   }
+  .link-social {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .link-email {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .profile-picture-block {
+    width: 140px;
+    min-width: 140px;
+  }
+  .grid-2-columns-founders {
+    grid-column-gap: 10px;
+  }
   .grid-3-to-1-column {
     margin-top: 0px;
     margin-bottom: 0px;
     grid-column-gap: 0px;
     grid-row-gap: 10px;
   }
+  .l-small {
+    padding-left: 20px;
+  }
+  .li-small {
+    font-size: 13px;
+    line-height: 22px;
+  }
   .table-services {
     margin-right: 10px;
     margin-left: 10px;
   }
   .bold-text {
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 22px;
     font-weight: 600;
   }
   .p-normal {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .l-normal {
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 22px;
   }
   .li-normal--inverse {
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 22px;
   }
   .div-block-3 {
     margin-top: 20px;
+    margin-left: -20px;
   }
   .li-normal {
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 22px;
   }
 }
 
