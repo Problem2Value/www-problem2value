@@ -391,6 +391,10 @@ a:hover {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   text-align: center;
 }
 
@@ -615,7 +619,7 @@ a:hover {
   z-index: 200;
 }
 
-.hero-background {
+.hero {
   position: static;
   z-index: 10;
   display: block;
@@ -629,8 +633,8 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.61)), to(rgba(0, 0, 0, 0.61))), url('../images/TeamWorkshop.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url('../images/TeamWorkshop.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.61)), to(rgba(0, 0, 0, 0.61))), url('../images/Hero.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url('../images/Hero.jpg');
   background-position: 0px 0px, 50% 66%;
   background-size: auto, cover;
   -o-object-fit: cover;
@@ -694,12 +698,50 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Brickwall-Training-2400.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Brickwall-Training-2400.jpg');
-  background-position: 0px 0px, 50% 100%;
-  background-size: auto, cover;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.hero-sub.hero-bootcamp {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Bootcamp.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Bootcamp.jpg');
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, cover;
+}
+
+.hero-sub.hero-innovation {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Innovation.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Innovation.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.hero-sub.hero-staffing {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Staffing.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Staffing.jpg');
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, auto;
+}
+
+.hero-sub.hero-contact {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Contact.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Contact.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.hero-sub.hero-impressum {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Impressum.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Impressum.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.hero-sub.hero-privacy {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Privacy.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Privacy.jpg');
+  background-position: 0px 0px, 100% 50%;
+  background-size: auto, cover;
 }
 
 .hero-wrapper-sub {
@@ -853,8 +895,8 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/success.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/success.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Contact-Success.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Contact-Success.jpg');
   background-position: 0px 0px, 100% 40%;
   background-size: auto, cover;
   -o-object-fit: cover;
@@ -989,14 +1031,14 @@ a:hover {
 .p--very-small {
   margin-bottom: 10px;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 24px;
   font-weight: 300;
   text-align: left;
 }
 
 .p--very-small.very-small-p--inverse {
   color: #f7f7f9;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .p--very-small.business-address-footer {
@@ -1189,6 +1231,7 @@ a:hover {
 }
 
 .link-small {
+  color: #2a9d8f;
   font-size: 18px;
   line-height: 24px;
 }
@@ -1397,6 +1440,58 @@ a:hover {
   font-weight: 400;
 }
 
+._404-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50vh;
+  padding: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 40px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 113, 39, 0.8)), to(rgba(242, 113, 39, 0.8)));
+  background-image: linear-gradient(180deg, rgba(242, 113, 39, 0.8), rgba(242, 113, 39, 0.8));
+}
+
+._404-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.mysection-404 {
+  height: 100vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url('../images/404.jpg');
+  background-position: 0% 50%;
+  background-size: cover;
+}
+
 @media screen and (max-width: 991px) {
   .mycontainer {
     margin-right: 10px;
@@ -1434,6 +1529,10 @@ a:hover {
   .h5-inverse {
     font-size: 25px;
     line-height: 30px;
+  }
+  .grid {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .image-credit__text {
     display: -webkit-box;
@@ -1504,6 +1603,10 @@ a:hover {
     display: none;
     width: 50%;
   }
+  .mysection-404 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1553,6 +1656,10 @@ a:hover {
   .h2--inverse {
     font-size: 50px;
     line-height: 60px;
+  }
+  .grid {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .flex1col {
     width: 100%;
@@ -1678,6 +1785,10 @@ a:hover {
   .section-hero-sub {
     height: 45vh;
   }
+  .grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
   .hero-contact-success {
     min-height: 60vh;
   }
@@ -1734,6 +1845,10 @@ a:hover {
   .link-small {
     font-size: 13px;
     line-height: 22px;
+  }
+  .footer-column {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .grid-3-columns-footer {
     grid-column-gap: 10px;
@@ -1803,6 +1918,10 @@ a:hover {
   .li-normal {
     font-size: 20px;
     line-height: 22px;
+  }
+  .mysection-404 {
+    margin-bottom: 0px;
+    background-position: 20% 10%;
   }
 }
 
