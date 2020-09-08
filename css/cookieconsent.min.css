@@ -116,6 +116,9 @@
   text-align: center;
   white-space: nowrap;
 }
+.cc-allow {
+  text-decoration: none;
+}
 .cc-highlight .cc-btn:first-child {
   background-color: transparent;
   border-color: transparent;
