@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Sep 08 2020 09:58:13 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Sep 08 2020 13:05:37 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f467cc17e17630bf7eef7f1" data-wf-site="5f460da7d1c0303203a089c7">
 <head>
   <meta charset="utf-8">
@@ -20,7 +20,8 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-176699290-1"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-176699290-1', {'anonymize_ip': true});</script>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
+  <!--  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">  -->
+  <link href="css/cookieconsent.min.css" rel="stylesheet" type="text/css">
   <!--  Google Tag Manager  -->
   <script type="text/plain" cookie-consent="tracking">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -53,6 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="mysection">
     <div class="mycontainer">
       <div class="privacy">
+        <p class="p-normal">Our privacy policy is in German to comply with local regulations. If you have any questions do not hesitate to contact us at admin@problem2value.com</p>
         <h4 class="heading-4">Datenschutzerklärung<br></h4>
         <p class="p--very-small">Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:<br>Problem2Value UG (haftungsbeschränkt).</p>
         <div class="privacy--section">
@@ -215,7 +217,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <p class="p--very-small">Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in unserer Organisation: admin@problem2value.com<br></p>
           </div>
         </div>
-        <p class="p--very-small"><em>Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den Experten für </em><a href="https://www.activemind.de/datenschutz/datenschutzbeauftragter/" target="_blank"><em class="link-small">externe Datenschutzbeauftragte</em></a><em> (Version #2019-04-10).</em><br></p>
+        <p class="p--very-small"><em>Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den Experten für </em><a href="https://www.activemind.de/datenschutz/datenschutzbeauftragter/" target="_blank"><em class="link-small">externe Datenschutzbeauftragte</em></a><em>.</em><br></p>
       </div>
     </div>
   </div>
@@ -224,7 +226,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="w-layout-grid grid-3-columns-footer">
         <div id="Footer-Business-Address" class="footer-column">
           <h5 class="h1--logo-name-footer">Problem<span class="h1-logo-name--span2">2</span>Value</h5>
-          <div class="p--very-small business-address-footer">Kirchfeldstr. 116<br>Düsseldorf 40215<br>Germany<br></div>
           <div class="p--very-small business-address-footer">contact@problem2value.com<br></div>
           <a href="https://www.linkedin.com/company/problem2value" target="_blank" class="w-inline-block">
             <div class="link-social invese-link"><br></div>
@@ -249,16 +250,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 window.cookieconsent.initialise({
   "palette": {
     "popup": {
-      "background": "#2f2e2e"
+      "background": "#2f2e2e",
+      "text": "#ffffff"
     },
     "button": {
-      "background": "#2a9d8f"
+      "background": "#2a9d8f",
+      "text": "#ffffff"
     }
   },
-  "type": "opt-out",
   "content": {
-    "dismiss": "Sure",
-    "deny": "Nope",
+    "dismiss": "Allow",
     "link": "Our Privacy Policy",
     "href": "/privacy"
   }

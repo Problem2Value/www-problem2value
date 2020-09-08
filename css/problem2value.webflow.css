@@ -659,7 +659,9 @@ a:hover {
 }
 
 .section-footer {
-  height: 40vh;
+  height: auto;
+  min-height: auto;
+  padding-top: 20px;
   background-color: #264653;
 }
 
@@ -668,6 +670,8 @@ a:hover {
 }
 
 .copyright {
+  margin-top: 40px;
+  padding-bottom: 20px;
   color: #f7f7f9;
   font-size: 14px;
   font-weight: 200;
@@ -707,6 +711,8 @@ a:hover {
 }
 
 .hero-sub.hero-bootcamp {
+  height: 360px;
+  min-height: 360px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Bootcamp.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Bootcamp.jpg');
   background-position: 0px 0px, 50% 100%;
@@ -714,6 +720,8 @@ a:hover {
 }
 
 .hero-sub.hero-innovation {
+  height: 360px;
+  min-height: 360px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Innovation.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Innovation.jpg');
   background-position: 0px 0px, 50% 50%;
@@ -815,7 +823,7 @@ a:hover {
 }
 
 .section-hero-sub {
-  height: 45vh;
+  height: 360px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -952,7 +960,7 @@ a:hover {
 .stickyimage {
   position: -webkit-sticky;
   position: sticky;
-  top: 20px;
+  top: 130px;
 }
 
 .stickyimagecontainer {
@@ -962,7 +970,7 @@ a:hover {
 .packageimage {
   position: absolute;
   left: 0%;
-  top: 10vh;
+  top: 0vh;
   right: 0%;
   bottom: 0%;
   display: block;
@@ -1163,8 +1171,9 @@ a:hover {
 .h3--claim-sub {
   margin-top: 10px;
   color: #f7f7f9;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
   text-align: left;
 }
 
@@ -1242,10 +1251,6 @@ a:hover {
   color: #2a9d8f;
   font-size: 18px;
   line-height: 24px;
-}
-
-.footer-column {
-  margin-bottom: 20px;
 }
 
 .grid-3-columns-footer {
@@ -1503,6 +1508,34 @@ a:hover {
   background-size: cover;
 }
 
+.grid-item-no-hover {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: #264653;
+}
+
 @media screen and (max-width: 991px) {
   .mycontainer {
     margin-right: 10px;
@@ -1512,7 +1545,7 @@ a:hover {
     line-height: 20px;
   }
   .mask {
-    margin-top: -60px;
+    margin-top: -129px;
     margin-right: 10px;
     margin-left: 10px;
   }
@@ -1520,7 +1553,7 @@ a:hover {
     margin-right: 10px;
   }
   .mycontainer--logo-name-hero {
-    margin-top: 160px;
+    margin-top: 120px;
     margin-right: 10px;
     margin-left: 10px;
   }
@@ -1557,13 +1590,13 @@ a:hover {
     flex-direction: column;
   }
   .flex1col {
-    margin-bottom: -90px;
+    margin-bottom: -60px;
   }
   .flexcolwrap--hero {
     margin-right: 20px;
   }
   .mysection {
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 10px;
   }
   .h3--claim-sub {
@@ -1661,12 +1694,23 @@ a:hover {
     margin-top: 110px;
   }
   .heading-2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 50px;
     line-height: 60px;
+  }
+  .h1--logo-name-footer {
+    font-size: 22px;
+    line-height: 25px;
   }
   .h2--inverse {
     font-size: 50px;
     line-height: 60px;
+  }
+  .h5-inverse {
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 25px;
   }
   .grid {
     -ms-grid-columns: 1fr 1fr;
@@ -1778,9 +1822,11 @@ a:hover {
     font-size: 30px;
     line-height: 40px;
   }
-  .section-footer {
-    height: auto;
-    min-height: auto;
+  .copyright {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    line-height: 25px;
   }
   .hero-sub {
     height: 45vh;
@@ -1810,6 +1856,7 @@ a:hover {
     margin-bottom: 30vh;
   }
   .mysection {
+    margin-top: 10px;
     margin-bottom: 10px;
   }
   .block-quote__inverse {

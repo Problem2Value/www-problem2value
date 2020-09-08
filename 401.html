@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Sep 08 2020 09:58:13 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Sep 08 2020 13:05:37 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5f460da7d1c030508ca089cd" data-wf-site="5f460da7d1c0303203a089c7">
 <head>
   <meta charset="utf-8">
@@ -20,7 +20,8 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-176699290-1"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-176699290-1', {'anonymize_ip': true});</script>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
+  <!--  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">  -->
+  <link href="css/cookieconsent.min.css" rel="stylesheet" type="text/css">
   <!--  Google Tag Manager  -->
   <script type="text/plain" cookie-consent="tracking">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -59,16 +60,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 window.cookieconsent.initialise({
   "palette": {
     "popup": {
-      "background": "#2f2e2e"
+      "background": "#2f2e2e",
+      "text": "#ffffff"
     },
     "button": {
-      "background": "#2a9d8f"
+      "background": "#2a9d8f",
+      "text": "#ffffff"
     }
   },
-  "type": "opt-out",
   "content": {
-    "dismiss": "Sure",
-    "deny": "Nope",
+    "dismiss": "Allow",
     "link": "Our Privacy Policy",
     "href": "/privacy"
   }
