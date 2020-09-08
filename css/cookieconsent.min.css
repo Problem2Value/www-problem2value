@@ -94,6 +94,9 @@
   opacity: 0.8;
   display: inline-block;
   padding: 0.2em;
+  font-family: Helvetica, Calibri, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
   text-decoration: underline;
 }
 .cc-link:hover {
