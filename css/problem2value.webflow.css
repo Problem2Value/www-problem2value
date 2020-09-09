@@ -707,8 +707,8 @@ a:hover {
 }
 
 .hero-sub.hero-bootcamp {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Innovation.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Innovation.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Bootcamp.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Bootcamp.jpg');
   background-position: 0px 0px, 100% 100%;
   background-size: auto, cover;
 }
@@ -1418,6 +1418,7 @@ a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 30px;
 }
 
 .column-description {
@@ -1834,9 +1835,6 @@ a:hover {
   .hero-sub.hero-bootcamp {
     height: 260px;
     min-height: 260px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url('../images/Hero-Innovation.jpg');
-    background-image: linear-gradient(180deg, transparent, transparent), url('../images/Hero-Innovation.jpg');
-    background-position: 0px 0px, 0% 50%;
   }
   .hero-wrapper-sub {
     margin-top: 80px;
