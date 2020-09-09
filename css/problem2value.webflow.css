@@ -707,9 +707,9 @@ a:hover {
 }
 
 .hero-sub.hero-bootcamp {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Bootcamp.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Bootcamp.jpg');
-  background-position: 0px 0px, 50% 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Innovation.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Innovation.jpg');
+  background-position: 0px 0px, 100% 100%;
   background-size: auto, cover;
 }
 
@@ -1560,6 +1560,9 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 10px;
   }
+  .h4--inverse.prerequisites {
+    margin-top: -20px;
+  }
   .h5-inverse {
     font-size: 25px;
     line-height: 30px;
@@ -1700,6 +1703,10 @@ a:hover {
     font-size: 50px;
     line-height: 60px;
   }
+  .h4--inverse.prerequisites {
+    font-size: 25px;
+    line-height: 35px;
+  }
   .h5-inverse {
     margin-bottom: 10px;
     font-size: 22px;
@@ -1827,6 +1834,9 @@ a:hover {
   .hero-sub.hero-bootcamp {
     height: 260px;
     min-height: 260px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url('../images/Hero-Innovation.jpg');
+    background-image: linear-gradient(180deg, transparent, transparent), url('../images/Hero-Innovation.jpg');
+    background-position: 0px 0px, 0% 50%;
   }
   .hero-wrapper-sub {
     margin-top: 80px;
@@ -1834,6 +1844,10 @@ a:hover {
   .h2--inverse {
     font-size: 30px;
     line-height: 40px;
+  }
+  .h4--inverse.prerequisites {
+    font-size: 18px;
+    line-height: 22px;
   }
   .section-hero-sub {
     height: 260px;
