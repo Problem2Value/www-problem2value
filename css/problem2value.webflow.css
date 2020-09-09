@@ -800,6 +800,14 @@ a:hover {
   color: #f7f7f9;
 }
 
+.h4--inverse.prerequisites {
+  margin-top: -50px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
 .h5-inverse {
   margin-bottom: 20px;
   color: #f7f7f9;
