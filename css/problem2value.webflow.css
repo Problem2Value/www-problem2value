@@ -95,6 +95,14 @@ a:hover {
   color: #fe4a49;
 }
 
+blockquote {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-left: 5px solid #e2e2e2;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 .mycontainer {
   z-index: auto;
   display: block;
@@ -648,10 +656,10 @@ a:hover {
 
 .grid-item-description {
   margin-bottom: 20px;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
 }
 
 .section-footer {
@@ -820,6 +828,11 @@ a:hover {
 
 .heading-3 {
   position: static;
+  color: #264653;
+}
+
+.heading-3.center {
+  text-align: center;
 }
 
 .section-hero-sub {
@@ -947,6 +960,7 @@ a:hover {
 }
 
 .fa-service-icon__inverse {
+  display: block;
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Fa solid 900', sans-serif;
@@ -991,6 +1005,7 @@ a:hover {
   color: #f7f7f9;
   font-size: 22px;
   line-height: 28px;
+  text-transform: capitalize;
 }
 
 .mysection__grey {
@@ -1105,11 +1120,12 @@ a:hover {
   font-size: 50px;
   line-height: 55px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .duration {
   margin-bottom: 20px;
-  color: #f7f7f9;
+  color: #264653;
   font-size: 16px;
   text-align: center;
 }
@@ -1177,14 +1193,10 @@ a:hover {
 }
 
 .grid-item--with-button {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
+  display: block;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 20px;
+  padding: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1200,13 +1212,15 @@ a:hover {
   align-items: flex-start;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
   align-self: stretch;
-  background-color: #264653;
+  background-color: transparent;
+  box-shadow: 4px 4px 12px 0 #777;
   text-decoration: none;
 }
 
 .grid-item--with-button:hover {
-  background-color: #2a9d8f;
+  background-color: #f7f7f9;
 }
 
 .sub-header-bold {
@@ -1227,9 +1241,8 @@ a:hover {
   width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
-  border-radius: 5px;
-  background-color: #f7f7f9;
-  color: #264653;
+  background-color: #00a7e1;
+  color: #f7f7f9;
   font-size: 24px;
   line-height: 36px;
   text-align: center;
@@ -1389,7 +1402,7 @@ a:hover {
   -ms-flex-pack: stretch;
   justify-content: stretch;
   grid-column-gap: 40px;
-  grid-row-gap: 400px;
+  grid-row-gap: 40px;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
@@ -1432,6 +1445,7 @@ a:hover {
 }
 
 .p-normal {
+  color: #264653;
   font-weight: 400;
 }
 
@@ -1533,7 +1547,128 @@ a:hover {
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
-  background-color: #264653;
+  background-color: #00a7e1;
+}
+
+.heading-box {
+  margin-top: 10px;
+  color: #f7f7f9;
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.box-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-content: flex-end;
+  -ms-flex-line-pack: end;
+  align-content: flex-end;
+}
+
+.box-description {
+  display: block;
+}
+
+.image {
+  background-image: url('../images/Hero-Staffing.jpg');
+  background-position: 0px 0px;
+  background-size: auto;
+}
+
+.div-block-4 {
+  background-image: url('../images/Hero-Staffing.jpg');
+  background-position: 50% 50%;
+  background-size: auto 200px;
+}
+
+.block-quote {
+  border-left: 3px solid #fe4a49;
+  color: #264653;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.grid-column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.grid-item--no-button {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+  background-color: #2a9d8f;
+  box-shadow: 4px 4px 12px 0 #777;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.box-icon {
+  font-family: 'Fa solid 900', sans-serif;
+  color: #f7f7f9;
+}
+
+.grid-column-no-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 @media screen and (max-width: 991px) {
@@ -1641,6 +1776,9 @@ a:hover {
   .mysection-404 {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+  .grid-item--no-button {
+    padding: 10px;
   }
 }
 
@@ -1755,6 +1893,9 @@ a:hover {
     -ms-grid-columns: 40% 1fr 1fr;
     grid-template-columns: 40% 1fr 1fr;
   }
+  .p-normal.p-form {
+    display: none;
+  }
   .heading-1 {
     font-size: 60px;
     line-height: 70px;
@@ -1798,11 +1939,17 @@ a:hover {
     font-size: 15px;
   }
   .cta-button.ghost-button {
+    width: 80%;
+    border-color: #f27127;
+    color: #f27127;
     font-size: 20px;
     line-height: 22px;
   }
   .cta-button.ghost-button-form {
     padding: 10px;
+    border-color: #f27127;
+    background-color: #f27127;
+    color: #f7f7f9;
   }
   .link {
     font-size: 20px;
@@ -1847,6 +1994,10 @@ a:hover {
     font-size: 18px;
     line-height: 22px;
   }
+  .p--inverse {
+    font-size: 18px;
+    line-height: 22px;
+  }
   .section-hero-sub {
     height: 260px;
   }
@@ -1874,6 +2025,7 @@ a:hover {
   }
   .form-box {
     padding: 0px;
+    box-shadow: none;
   }
   .grid-item-quotes {
     margin-bottom: 0px;
@@ -1890,7 +2042,7 @@ a:hover {
     margin-bottom: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 35px;
   }
   .fake-button {
@@ -1903,6 +2055,7 @@ a:hover {
     padding: 0px;
   }
   .link-small {
+    display: block;
     font-size: 13px;
     line-height: 22px;
   }
@@ -1953,17 +2106,23 @@ a:hover {
     line-height: 22px;
   }
   .table-services {
+    margin-top: 0px;
     margin-right: 10px;
     margin-left: 10px;
   }
   .bold-text {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
     font-weight: 600;
   }
   .p-normal {
     font-size: 18px;
     line-height: 22px;
+  }
+  .heading-1 {
+    margin-top: 20px;
+    font-size: 35px;
+    line-height: 45px;
   }
   .l-normal {
     padding-left: 20px;
@@ -1980,7 +2139,7 @@ a:hover {
     margin-left: -20px;
   }
   .li-normal {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
   }
   .mysection-404 {
@@ -2028,4 +2187,11 @@ a:hover {
   font-weight: 400;
   font-style: normal;
   font-display: auto;
+}
+@font-face {
+  font-family: 'Problem 2 value 2 arrow';
+  src: url('../fonts/Problem-2-Value-2-Arrow.eot') format('embedded-opentype'), url('../fonts/Problem-2-Value-2-Arrow.woff') format('woff'), url('../fonts/Problem-2-Value-2-Arrow.ttf') format('truetype'), url('../fonts/Problem-2-Value-2-Arrow.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
