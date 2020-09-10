@@ -743,9 +743,9 @@ blockquote {
 }
 
 .hero-sub.hero-impressum {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Impressum.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Impressum.jpg');
-  background-position: 0px 0px, 50% 50%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Kayak.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Kayak.jpg');
+  background-position: 0px 0px, 100% 25%;
   background-size: auto, cover;
 }
 
@@ -1678,7 +1678,7 @@ blockquote {
   .grid-3-to-1-column {
     margin-top: 10px;
     grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-row-gap: 30px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -2024,7 +2024,7 @@ blockquote {
     margin-top: 0px;
     margin-bottom: 0px;
     grid-column-gap: 0px;
-    grid-row-gap: 10px;
+    grid-row-gap: 30px;
   }
   .l-small {
     padding-left: 20px;
@@ -2071,18 +2071,18 @@ blockquote {
   }
 }
 
-#w-node-db406618d7c5-dabf09ad {
+#w-node-db406618d7c5-29bd4652 {
   -ms-grid-column-align: end;
   justify-self: end;
 }
 
-#w-node-e914602d6fec-dabf09ad {
+#w-node-e914602d6fec-29bd4652 {
   -ms-grid-column-align: start;
   justify-self: start;
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-5ce61997ca8b-dabf09ad {
+  #w-node-f59c8d723523-dabf09ad {
     -webkit-align-self: stretch;
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
