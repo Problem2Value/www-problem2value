@@ -808,14 +808,6 @@ blockquote {
   color: #f7f7f9;
 }
 
-.h4--inverse.prerequisites {
-  margin-top: -50px;
-  margin-bottom: 20px;
-  font-size: 30px;
-  line-height: 40px;
-  text-align: center;
-}
-
 .h5-inverse {
   margin-bottom: 20px;
   color: #f7f7f9;
@@ -839,38 +831,6 @@ blockquote {
   height: 360px;
   -o-object-fit: cover;
   object-fit: cover;
-}
-
-.grid-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 20px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  background-color: #264653;
-}
-
-.grid-item:hover {
-  background-color: #2a9d8f;
 }
 
 .grid {
@@ -956,7 +916,7 @@ blockquote {
 .section__persiangreen {
   padding-top: 0px;
   padding-bottom: 40px;
-  background-color: #2a9d8f;
+  background-color: #f7f7f9;
 }
 
 .fa-service-icon__inverse {
@@ -1069,6 +1029,12 @@ blockquote {
   font-size: 18px;
 }
 
+.p--very-small.very-small-p--inverse.legal {
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .p--very-small.business-address-footer {
   color: #f7f7f9;
   font-size: 14px;
@@ -1179,10 +1145,6 @@ blockquote {
   grid-template-rows: auto;
 }
 
-.body-2 {
-  font-family: 'Nunito Sans', sans-serif;
-}
-
 .h3--claim-sub {
   margin-top: 10px;
   color: #f7f7f9;
@@ -1289,6 +1251,11 @@ blockquote {
   color: #f7f7f9;
 }
 
+.link-social.small {
+  font-size: 25px;
+  line-height: 30px;
+}
+
 .founderright {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1307,10 +1274,6 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.body-3 {
-  box-shadow: 1px 1px 3px 0 #000;
 }
 
 .social-link {
@@ -1454,12 +1417,9 @@ blockquote {
   margin-bottom: 40px;
 }
 
-.li-normal--inverse {
-  padding-bottom: 10px;
-  color: #f7f7f9;
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: 300;
+.heading-4.prerequisites {
+  margin-top: -40px;
+  margin-bottom: 40px;
 }
 
 .li-normal {
@@ -1522,42 +1482,6 @@ blockquote {
   background-size: cover;
 }
 
-.grid-item-no-hover {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 20px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  background-color: #00a7e1;
-}
-
-.heading-box {
-  margin-top: 10px;
-  color: #f7f7f9;
-  font-size: 50px;
-  font-weight: 300;
-  text-align: center;
-}
-
 .box-content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1589,12 +1513,6 @@ blockquote {
   background-image: url('../images/Hero-Staffing.jpg');
   background-position: 0px 0px;
   background-size: auto;
-}
-
-.div-block-4 {
-  background-image: url('../images/Hero-Staffing.jpg');
-  background-position: 50% 50%;
-  background-size: auto 200px;
 }
 
 .block-quote {
@@ -1671,6 +1589,26 @@ blockquote {
   justify-content: flex-start;
 }
 
+.h2-cultured-box {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.div-block-4 {
+  margin-top: -15px;
+}
+
+.testimonial-with-linkedin {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 991px) {
   .mycontainer {
     margin-right: 10px;
@@ -1695,9 +1633,6 @@ blockquote {
   .h2--inverse {
     padding-top: 20px;
     padding-bottom: 10px;
-  }
-  .h4--inverse.prerequisites {
-    margin-top: -20px;
   }
   .h5-inverse {
     font-size: 25px;
@@ -1841,10 +1776,6 @@ blockquote {
   .h2--inverse {
     font-size: 50px;
     line-height: 60px;
-  }
-  .h4--inverse.prerequisites {
-    font-size: 25px;
-    line-height: 35px;
   }
   .h5-inverse {
     margin-bottom: 10px;
@@ -1990,10 +1921,6 @@ blockquote {
     font-size: 30px;
     line-height: 40px;
   }
-  .h4--inverse.prerequisites {
-    font-size: 18px;
-    line-height: 22px;
-  }
   .p--inverse {
     font-size: 18px;
     line-height: 22px;
@@ -2022,6 +1949,10 @@ blockquote {
   .p--very-small {
     font-size: 12px;
     line-height: 18px;
+  }
+  .p--very-small.very-small-p--inverse.legal {
+    font-size: 12px;
+    line-height: 16px;
   }
   .form-box {
     padding: 0px;
@@ -2126,11 +2057,6 @@ blockquote {
   }
   .l-normal {
     padding-left: 20px;
-    font-size: 20px;
-    line-height: 22px;
-  }
-  .li-normal--inverse {
-    margin-left: 20px;
     font-size: 20px;
     line-height: 22px;
   }
