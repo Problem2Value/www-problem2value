@@ -1887,7 +1887,7 @@ blockquote {
     color: #f7f7f9;
   }
   .link {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
   }
   .h1--logo-name-navbar {
@@ -2066,7 +2066,7 @@ blockquote {
   }
   .div-block-3 {
     margin-top: 20px;
-    margin-left: -20px;
+    margin-left: 0px;
   }
   .li-normal {
     font-size: 18px;
