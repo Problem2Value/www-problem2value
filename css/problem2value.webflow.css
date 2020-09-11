@@ -258,17 +258,17 @@ blockquote {
   padding: 15px;
   border-style: solid;
   border-width: 2px;
-  border-color: #00a7e1;
+  border-color: #f27127;
   background-color: transparent;
-  color: #00a7e1;
+  color: #f27127;
   font-size: 24px;
   line-height: 36px;
 }
 
 .cta-button.ghost-button:hover {
-  border-color: #fe4a49;
-  background-color: #f7f7f9;
-  color: #fe4a49;
+  border-color: #f27127;
+  background-color: rgba(242, 113, 39, 0.07);
+  color: #f27127;
 }
 
 .cta-button.ghost-button.inverse-ghost {
@@ -297,17 +297,17 @@ blockquote {
   padding: 30px;
   border-style: solid;
   border-width: 2px;
-  border-color: #00a7e1;
-  background-color: rgba(0, 167, 225, 0.2);
-  color: #00a7e1;
+  border-color: #f27127;
+  background-color: #f27127;
+  color: #f7f7f9;
   font-size: 24px;
   line-height: 36px;
 }
 
 .cta-button.ghost-button-form:hover {
-  border-color: #fe4a49;
+  border-color: #f27127;
   background-color: #f7f7f9;
-  color: #fe4a49;
+  color: #f27127;
 }
 
 .invese-link {
@@ -551,7 +551,7 @@ blockquote {
   display: block;
   width: 100%;
   height: auto;
-  margin-top: 35vh;
+  margin-top: 30vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1616,6 +1616,27 @@ blockquote {
   align-items: center;
 }
 
+.mycontainer--form {
+  z-index: auto;
+  display: block;
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.logocontainer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 @media screen and (max-width: 991px) {
   .mycontainer {
     margin-right: 10px;
@@ -1718,6 +1739,10 @@ blockquote {
   }
   .grid-item--no-button {
     padding: 10px;
+  }
+  .mycontainer--form {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 
@@ -1835,6 +1860,10 @@ blockquote {
     font-size: 60px;
     line-height: 70px;
   }
+  .logocontainer {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1882,8 +1911,6 @@ blockquote {
   }
   .cta-button.ghost-button-form {
     padding: 10px;
-    border-color: #f27127;
-    background-color: #f27127;
     color: #f7f7f9;
   }
   .link {
