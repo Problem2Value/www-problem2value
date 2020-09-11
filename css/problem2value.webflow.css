@@ -436,7 +436,7 @@ blockquote {
 }
 
 .h1--logo-name-navbar {
-  display: block;
+  display: none;
   padding: 20px 20px 20px 10px;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -449,7 +449,7 @@ blockquote {
   color: #f7f7f9;
   font-size: 24px;
   line-height: 36px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .brand {
@@ -565,8 +565,9 @@ blockquote {
 
 .h1--logo-name-hero {
   position: static;
-  display: block;
+  display: none;
   color: #f7f7f9;
+  font-weight: 700;
   text-align: left;
 }
 
@@ -780,7 +781,7 @@ blockquote {
 }
 
 .h1--logo-name-footer {
-  display: block;
+  display: none;
   margin-top: 10px;
   padding-bottom: 0px;
   -webkit-box-align: center;
@@ -1637,6 +1638,82 @@ blockquote {
   padding-left: 10px;
 }
 
+.our-expertise {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.text-block {
+  font-family: Problem2value, sans-serif;
+  font-size: 90px;
+  line-height: 120px;
+}
+
+.logo-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.h1--logo-font {
+  position: static;
+  display: block;
+  font-family: Problem2value, sans-serif;
+  color: #f7f7f9;
+  font-size: 100px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.h1--logo-font._2 {
+  margin-right: -10px;
+  padding-right: 0px;
+  color: #2a9d8f;
+}
+
+.h1--logo-font-navbar {
+  position: static;
+  display: block;
+  font-family: Problem2value, sans-serif;
+  color: #f7f7f9;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 0.07em;
+}
+
+.h1--logo-font-navbar._2 {
+  margin-right: -5px;
+  padding-right: 0px;
+  color: #2a9d8f;
+}
+
+.logo-navbar {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.logo-navbar-footer {
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
 @media screen and (max-width: 991px) {
   .mycontainer {
     margin-right: 10px;
@@ -1743,6 +1820,9 @@ blockquote {
   .mycontainer--form {
     margin-right: 10px;
     margin-left: 10px;
+  }
+  .our-expertise {
+    padding-top: 0px;
   }
 }
 
@@ -1864,6 +1944,22 @@ blockquote {
     margin-right: 10px;
     margin-left: 10px;
   }
+  .h1--logo-font {
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+  }
+  .h1--logo-font._2 {
+    margin-right: -7px;
+  }
+  .h1--logo-font-navbar {
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+  }
+  .h1--logo-font-navbar._2 {
+    margin-right: -7px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1921,7 +2017,7 @@ blockquote {
     font-size: 18px;
   }
   .h1--logo-name-hero {
-    font-size: 30px;
+    font-size: 34px;
     line-height: 40px;
   }
   .mycontainer--logo-name-hero {
@@ -1978,7 +2074,7 @@ blockquote {
     line-height: 22px;
   }
   .p--very-small {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
   }
   .p--very-small.very-small-p--inverse.legal {
@@ -2078,6 +2174,7 @@ blockquote {
     font-weight: 600;
   }
   .p-normal {
+    margin-top: 0px;
     font-size: 18px;
     line-height: 22px;
   }
@@ -2102,6 +2199,25 @@ blockquote {
   .mysection-404 {
     margin-bottom: 0px;
     background-position: 20% 10%;
+  }
+  .our-expertise {
+    padding: 0px;
+  }
+  .h1--logo-font {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.08em;
+  }
+  .h1--logo-font._2 {
+    margin-right: -5px;
+  }
+  .h1--logo-font-navbar {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.08em;
+  }
+  .h1--logo-font-navbar._2 {
+    margin-right: -5px;
   }
 }
 
@@ -2146,9 +2262,9 @@ blockquote {
   font-display: auto;
 }
 @font-face {
-  font-family: 'Problem 2 value 2 arrow';
-  src: url('../fonts/Problem-2-Value-2-Arrow.eot') format('embedded-opentype'), url('../fonts/Problem-2-Value-2-Arrow.woff') format('woff'), url('../fonts/Problem-2-Value-2-Arrow.ttf') format('truetype'), url('../fonts/Problem-2-Value-2-Arrow.svg') format('svg');
-  font-weight: 400;
+  font-family: 'Problem2value';
+  src: url('../fonts/Problem2Value.eot') format('embedded-opentype'), url('../fonts/Problem2Value.woff') format('woff'), url('../fonts/Problem2Value.ttf') format('truetype'), url('../fonts/Problem2Value.svg') format('svg');
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
