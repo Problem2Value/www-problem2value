@@ -1824,6 +1824,9 @@ blockquote {
   .our-expertise {
     padding-top: 0px;
   }
+  .logo-navbar {
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1861,6 +1864,9 @@ blockquote {
   .h1--logo-name-navbar {
     padding-left: 0px;
     font-size: 18px;
+  }
+  .brand.w--current {
+    padding-left: 0px;
   }
   .hero-wrapper {
     margin-top: 25vh;
@@ -1953,9 +1959,9 @@ blockquote {
     margin-right: -7px;
   }
   .h1--logo-font-navbar {
-    font-size: 50px;
+    font-size: 30px;
     line-height: 60px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.07em;
   }
   .h1--logo-font-navbar._2 {
     margin-right: -7px;
@@ -2212,12 +2218,12 @@ blockquote {
     margin-right: -5px;
   }
   .h1--logo-font-navbar {
-    font-size: 34px;
-    line-height: 40px;
-    letter-spacing: 0.08em;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
   }
   .h1--logo-font-navbar._2 {
-    margin-right: -5px;
+    margin-right: -3px;
   }
 }
 
