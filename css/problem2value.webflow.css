@@ -640,8 +640,8 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.61)), to(rgba(0, 0, 0, 0.61))), url('../images/Hero.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url('../images/Hero.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.31)), to(rgba(0, 0, 0, 0.31))), url('../images/Hero.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url('../images/Hero.jpg');
   background-position: 0px 0px, 50% 66%;
   background-size: auto, cover;
   -o-object-fit: cover;
@@ -2119,7 +2119,7 @@ blockquote {
     width: 60%;
   }
   .flexcolwrap--hero {
-    height: 80vh;
+    height: 70vh;
   }
   .mysection {
     margin-top: 10px;
