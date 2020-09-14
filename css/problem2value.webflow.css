@@ -1710,6 +1710,10 @@ blockquote {
   padding-left: 0px;
 }
 
+.image-logo-navbar {
+  height: 30px;
+}
+
 .logo-hero-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
