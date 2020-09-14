@@ -1745,6 +1745,18 @@ blockquote {
   display: none;
 }
 
+.text-span-2 {
+  text-decoration: underline;
+}
+
+.text-span-3 {
+  text-decoration: underline;
+}
+
+.text-span-4 {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 991px) {
   .h2--claim-hero {
     font-size: 60px;
