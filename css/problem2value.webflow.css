@@ -1911,6 +1911,9 @@ blockquote {
     padding-left: 0px;
     font-size: 18px;
   }
+  .brand {
+    padding-left: 0px;
+  }
   .hero-wrapper {
     margin-top: 140px;
   }
