@@ -1667,7 +1667,7 @@ blockquote {
   display: block;
   font-family: Problem2value, sans-serif;
   color: #f7f7f9;
-  font-size: 100px;
+  font-size: 60px;
   font-weight: 700;
   text-align: left;
 }
@@ -1710,11 +1710,6 @@ blockquote {
   padding-left: 0px;
 }
 
-.image-logo-navbar {
-  width: 180px;
-  height: auto;
-}
-
 .logo-hero-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1722,9 +1717,8 @@ blockquote {
   display: flex;
 }
 
-.image-logo-hero {
-  width: 650px;
-  height: auto;
+.text-span {
+  color: #2a9d8f;
 }
 
 @media screen and (max-width: 991px) {
@@ -1841,7 +1835,7 @@ blockquote {
     padding-left: 0px;
   }
   .image-logo-hero {
-    width: 550px;
+    width: 70%;
   }
 }
 
@@ -1882,7 +1876,7 @@ blockquote {
     font-size: 18px;
   }
   .brand.w--current {
-    padding-left: 0px;
+    padding: 10px;
   }
   .hero-wrapper {
     margin-top: 140px;
@@ -1979,7 +1973,7 @@ blockquote {
     margin-right: -7px;
   }
   .image-logo-hero {
-    width: 450px;
+    width: 80%;
   }
 }
 
@@ -2245,7 +2239,7 @@ blockquote {
     margin-right: -3px;
   }
   .image-logo-hero {
-    width: 280px;
+    width: 90%;
   }
 }
 
