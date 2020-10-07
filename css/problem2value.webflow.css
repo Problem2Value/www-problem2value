@@ -470,14 +470,14 @@ blockquote {
 }
 
 .section-navbar {
-  position: absolute;
+  position: fixed;
   left: 0%;
   top: 0%;
   right: 0%;
   bottom: auto;
   z-index: 300;
   overflow: visible;
-  background-color: transparent;
+  background-color: rgba(38, 70, 83, 0.9);
   -o-object-fit: none;
   object-fit: none;
   -o-object-position: 50% 50%;
@@ -561,14 +561,6 @@ blockquote {
   align-items: flex-start;
 }
 
-.h1--logo-name-hero {
-  position: static;
-  display: none;
-  color: #f7f7f9;
-  font-weight: 700;
-  text-align: left;
-}
-
 .mycontainer--logo-name-hero {
   position: absolute;
   left: 0%;
@@ -596,6 +588,8 @@ blockquote {
 }
 
 .navbar--link {
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #f7f7f9;
   font-size: 18px;
   line-height: 36px;
@@ -614,7 +608,7 @@ blockquote {
 }
 
 .heading-2 {
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 40px;
   color: #264653;
   font-weight: 700;
@@ -652,7 +646,6 @@ blockquote {
 }
 
 .grid-item-description {
-  margin-bottom: 20px;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   -ms-grid-row-align: stretch;
@@ -671,8 +664,8 @@ blockquote {
 }
 
 .copyright {
-  margin-top: 40px;
-  padding-bottom: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
   color: #f7f7f9;
   font-size: 14px;
   font-weight: 200;
@@ -723,13 +716,6 @@ blockquote {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Innovation.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
-}
-
-.hero-sub.hero-staffing {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url('../images/Hero-Staffing.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../images/Hero-Staffing.jpg');
-  background-position: 0px 0px, 50% 100%;
-  background-size: auto, auto;
 }
 
 .hero-sub.hero-contact {
@@ -800,7 +786,7 @@ blockquote {
 
 .h2--inverse {
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   color: #f7f7f9;
 }
 
@@ -829,9 +815,11 @@ blockquote {
 
 .heading-3.center {
   text-align: center;
+  white-space: nowrap;
 }
 
 .section-hero-sub {
+  display: block;
   height: 360px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -842,10 +830,6 @@ blockquote {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-}
-
-.div-block-2 {
-  height: 50px;
 }
 
 .image-credit {
@@ -900,6 +884,7 @@ blockquote {
 .flex1col {
   width: 100%;
   padding: 0px;
+  text-align: center;
 }
 
 .flexcolwrap--hero {
@@ -920,17 +905,6 @@ blockquote {
   padding-top: 0px;
   padding-bottom: 40px;
   background-color: #f7f7f9;
-}
-
-.fa-service-icon__inverse {
-  display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-family: 'Fa solid 900', sans-serif;
-  color: #f7f7f9;
-  font-size: 60px;
-  font-weight: 400;
-  text-align: center;
 }
 
 .stickyimage {
@@ -961,15 +935,6 @@ blockquote {
   margin-bottom: 40px;
   padding-top: 0px;
   padding-bottom: 0px;
-}
-
-.block-quote__inverse {
-  border-left-width: 3px;
-  border-left-color: #fe4a49;
-  color: #f7f7f9;
-  font-size: 22px;
-  line-height: 28px;
-  text-transform: capitalize;
 }
 
 .mysection__grey {
@@ -1034,16 +999,20 @@ blockquote {
   font-size: 18px;
 }
 
-.p--very-small.very-small-p--inverse.legal {
-  margin-bottom: 0px;
-  font-size: 14px;
-  line-height: 20px;
-}
-
 .p--very-small.business-address-footer {
+  margin-bottom: 0px;
   color: #f7f7f9;
   font-size: 14px;
   line-height: 24px;
+}
+
+.p--very-small.cookie {
+  margin-bottom: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  color: #f7f7f9;
 }
 
 .heading-4 {
@@ -1086,14 +1055,6 @@ blockquote {
   color: #b6b5b5;
 }
 
-.h4--inverse__box {
-  color: #f7f7f9;
-  font-size: 50px;
-  line-height: 55px;
-  text-align: center;
-  text-transform: capitalize;
-}
-
 .duration {
   margin-bottom: 20px;
   color: #264653;
@@ -1134,13 +1095,6 @@ blockquote {
 
 .cta-box-home {
   margin-bottom: 60px;
-}
-
-.grid-item-quotes {
-  margin-bottom: 20px;
-  -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
 }
 
 .grid-7-columns {
@@ -1358,9 +1312,12 @@ blockquote {
   -ms-flex-pack: center;
   justify-content: center;
   justify-items: center;
-  grid-column-gap: 20px;
+  grid-column-gap: 40px;
+  grid-row-gap: 0px;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
 }
 
 .grid-3-to-1-column {
@@ -1375,11 +1332,6 @@ blockquote {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-}
-
-.li-small {
-  line-height: 28px;
-  font-weight: 300;
 }
 
 .grid-services {
@@ -1427,12 +1379,22 @@ blockquote {
   margin-bottom: 40px;
 }
 
+.staffing-checkboxes {
+  margin-top: 40px;
+}
+
 .li-normal {
   padding-bottom: 10px;
+  padding-left: 41px;
+  background-image: url('../images/checkbox.svg');
+  background-position: 0% 25%;
+  background-size: auto;
+  background-repeat: no-repeat;
   color: #264653;
   font-size: 24px;
   line-height: 30px;
   font-weight: 400;
+  list-style-type: none;
 }
 
 ._404-wrapper {
@@ -1514,12 +1476,6 @@ blockquote {
   display: block;
 }
 
-.image {
-  background-image: url('../images/Hero-Staffing.jpg');
-  background-position: 0px 0px;
-  background-size: auto;
-}
-
 .block-quote {
   border-left: 3px solid #fe4a49;
   color: #264653;
@@ -1542,56 +1498,18 @@ blockquote {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-}
-
-.grid-item--no-button {
-  display: block;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 20px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  -ms-grid-row-align: stretch;
-  align-self: stretch;
-  background-color: #2a9d8f;
-  box-shadow: 4px 4px 12px 0 #777;
-  text-decoration: none;
-  text-transform: lowercase;
-}
-
-.box-icon {
-  font-family: 'Fa solid 900', sans-serif;
-  color: #f7f7f9;
-}
-
-.grid-column-no-button {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  box-shadow: 1px 1px 3px 0 #000;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-perspective: 1843px;
+  perspective: 1843px;
+  -webkit-perspective-origin: 100% 100%;
+  perspective-origin: 100% 100%;
+  -webkit-transform: perspective(0px);
+  transform: perspective(0px);
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
 }
 
 .h2-cultured-box {
@@ -1641,12 +1559,6 @@ blockquote {
   padding: 20px;
 }
 
-.text-block {
-  font-family: Problem2value, sans-serif;
-  font-size: 90px;
-  line-height: 120px;
-}
-
 .logo-wrapper {
   display: none;
   -webkit-box-orient: horizontal;
@@ -1658,22 +1570,6 @@ blockquote {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-}
-
-.h1--logo-font {
-  position: static;
-  display: block;
-  font-family: Problem2value, sans-serif;
-  color: #f7f7f9;
-  font-size: 60px;
-  font-weight: 700;
-  text-align: left;
-}
-
-.h1--logo-font._2 {
-  margin-right: -10px;
-  padding-right: 0px;
-  color: #2a9d8f;
 }
 
 .h1--logo-font-navbar {
@@ -1694,13 +1590,6 @@ blockquote {
   color: #2a9d8f;
 }
 
-.logo-navbar {
-  display: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 10px;
-}
-
 .logo-navbar-footer {
   display: block;
   padding-top: 0px;
@@ -1709,8 +1598,8 @@ blockquote {
 }
 
 .image-logo-navbar {
-  height: 30px;
-  margin: 22px 0px;
+  height: 35px;
+  margin: 10px 12px;
 }
 
 .logo-hero-wrapper {
@@ -1718,10 +1607,6 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-}
-
-.text-span {
-  color: #2a9d8f;
 }
 
 .box-image {
@@ -1741,10 +1626,6 @@ blockquote {
   background-image: url('../images/Hero-Staffing.jpg');
 }
 
-.image-2 {
-  display: none;
-}
-
 .text-span-2 {
   text-decoration: underline;
 }
@@ -1755,6 +1636,113 @@ blockquote {
 
 .text-span-4 {
   text-decoration: underline;
+}
+
+.li-small-2 {
+  line-height: 28px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.l-small-2 {
+  list-style-type: disc;
+}
+
+.link-small-2 {
+  color: #2a9d8f;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.mycontainer-2 {
+  z-index: auto;
+  display: block;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.p-normal-2 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: rgba(38, 70, 83, 0.9);
+  font-weight: 400;
+}
+
+.heading-6-2 {
+  text-align: left;
+}
+
+.image-logo-footer {
+  height: 35px;
+  margin-top: 0px;
+  margin-right: 12px;
+  margin-bottom: 0px;
+}
+
+.cookie-window {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  z-index: 999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 24px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+.cookie-img {
+  margin-right: 10px;
+}
+
+.link-small-green {
+  color: #2a9d8f;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.accept-btn {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80px;
+  height: 40px;
+  margin-left: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #2a9d8f;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 991px) {
@@ -1857,18 +1845,12 @@ blockquote {
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  .grid-item--no-button {
-    padding: 10px;
-  }
   .mycontainer--form {
     margin-right: 10px;
     margin-left: 10px;
   }
   .our-expertise {
     padding-top: 0px;
-  }
-  .logo-navbar {
-    padding-left: 0px;
   }
   .image-logo-navbar {
     margin: 15px 0px;
@@ -1884,6 +1866,12 @@ blockquote {
   }
   .box-image.staffing {
     background-image: url('../images/Hero-Staffing.jpg');
+  }
+  .image-logo-footer {
+    margin: 15px 0px;
+  }
+  .accept-btn {
+    width: 100px;
   }
 }
 
@@ -1929,10 +1917,6 @@ blockquote {
   .hero-wrapper {
     margin-top: 140px;
   }
-  .h1--logo-name-hero {
-    font-size: 50px;
-    line-height: 60px;
-  }
   .mycontainer--logo-name-hero {
     margin-top: 70px;
   }
@@ -1965,20 +1949,12 @@ blockquote {
   .flexcolwrap--hero {
     height: 80vh;
   }
-  .fa-service-icon__inverse {
-    font-size: 50px;
-    line-height: 30px;
-  }
   .mysection {
     margin-top: 20px;
   }
   .text-field-form {
     font-size: 22px;
     line-height: 30px;
-  }
-  .h4--inverse__box {
-    font-size: 35px;
-    line-height: 40px;
   }
   .cta-box-home {
     margin-bottom: 20px;
@@ -2004,14 +1980,6 @@ blockquote {
     font-size: 60px;
     line-height: 70px;
   }
-  .h1--logo-font {
-    font-size: 50px;
-    line-height: 60px;
-    letter-spacing: 0.05em;
-  }
-  .h1--logo-font._2 {
-    margin-right: -7px;
-  }
   .h1--logo-font-navbar {
     font-size: 30px;
     line-height: 60px;
@@ -2027,6 +1995,14 @@ blockquote {
   }
   .image-logo-hero {
     width: 80%;
+  }
+  .image-logo-footer {
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .accept-btn {
+    width: 140px;
   }
 }
 
@@ -2088,10 +2064,6 @@ blockquote {
   .h1--logo-name-navbar {
     font-size: 18px;
   }
-  .h1--logo-name-hero {
-    font-size: 34px;
-    line-height: 40px;
-  }
   .mycontainer--logo-name-hero {
     margin-top: 90px;
   }
@@ -2147,24 +2119,13 @@ blockquote {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .block-quote__inverse {
-    font-size: 20px;
-    line-height: 22px;
-  }
   .p--very-small {
     font-size: 14px;
     line-height: 18px;
   }
-  .p--very-small.very-small-p--inverse.legal {
-    font-size: 12px;
-    line-height: 16px;
-  }
   .form-box {
     padding: 0px;
     box-shadow: none;
-  }
-  .grid-item-quotes {
-    margin-bottom: 0px;
   }
   .h3--claim-sub {
     font-size: 20px;
@@ -2234,13 +2195,6 @@ blockquote {
     grid-column-gap: 0px;
     grid-row-gap: 30px;
   }
-  .l-small {
-    padding-left: 20px;
-  }
-  .li-small {
-    font-size: 13px;
-    line-height: 22px;
-  }
   .table-services {
     margin-top: 0px;
     margin-right: 10px;
@@ -2266,7 +2220,7 @@ blockquote {
     font-size: 20px;
     line-height: 22px;
   }
-  .div-block-3 {
+  .staffing-checkboxes {
     margin-top: 20px;
     margin-left: 0px;
   }
@@ -2281,14 +2235,6 @@ blockquote {
   .our-expertise {
     padding: 0px;
   }
-  .h1--logo-font {
-    font-size: 34px;
-    line-height: 40px;
-    letter-spacing: 0.08em;
-  }
-  .h1--logo-font._2 {
-    margin-right: -5px;
-  }
   .h1--logo-font-navbar {
     font-size: 22px;
     line-height: 30px;
@@ -2299,6 +2245,35 @@ blockquote {
   }
   .image-logo-hero {
     width: 90%;
+  }
+  .li-small-2 {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .l-small-2 {
+    padding-left: 20px;
+  }
+  .link-small-2 {
+    display: block;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .p-normal-2 {
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .cookie-window {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .link-small-green {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .accept-btn {
+    width: 160px;
   }
 }
 
