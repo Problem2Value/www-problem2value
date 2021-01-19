@@ -1436,6 +1436,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  color: #fff;
 }
 
 .mysection-404 {
@@ -1744,39 +1745,60 @@ blockquote {
   cursor: pointer;
 }
 
+.heading-6 {
+  color: #fff;
+}
+
+.heading-6-inv {
+  color: #fff;
+}
+
+.h6--inverse {
+  color: #fff;
+}
+
 @media screen and (max-width: 991px) {
   .h2--claim-hero {
     font-size: 60px;
     line-height: 65px;
   }
+
   .h1--logo-name-navbar {
     line-height: 20px;
   }
+
   .menu-button {
     color: #f7f7f9;
   }
+
   .menu-button.w--open {
     background-color: #2a9d8f;
   }
+
   .nav-menu {
     background-color: #2a9d8f;
   }
+
   .h1--logo-name-footer {
     font-size: 25px;
     line-height: 30px;
   }
+
   .h2--inverse {
     padding-top: 20px;
     padding-bottom: 10px;
   }
+
   .h5-inverse {
     font-size: 25px;
     line-height: 30px;
   }
+
   .grid {
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .image-credit__text {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1788,21 +1810,26 @@ blockquote {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .mysection {
     margin-top: 40px;
     margin-bottom: 10px;
   }
+
   .h3--claim-sub {
     margin-top: -20px;
   }
+
   .h2--package-header {
     font-size: 50px;
     line-height: 60px;
   }
+
   .grid-column-image {
     padding-right: 40px;
     padding-left: 40px;
   }
+
   .grid-2-to-1-column {
     margin-right: 20px;
     margin-left: 20px;
@@ -1810,6 +1837,7 @@ blockquote {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
   .grid-3-to-1-column {
     margin-top: 10px;
     grid-column-gap: 20px;
@@ -1817,9 +1845,11 @@ blockquote {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
   .image-mobile-only {
     display: block;
   }
+
   .table-services {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1828,47 +1858,60 @@ blockquote {
     margin-right: 20px;
     margin-left: 20px;
   }
+
   .column-description {
     width: 100%;
     margin-right: 0px;
     margin-left: 0px;
   }
+
   .column-images {
     display: none;
     width: 50%;
   }
+
   .p-normal.p-form {
     margin-top: 0px;
   }
+
   .mysection-404 {
     margin-top: 0px;
     margin-bottom: 0px;
   }
+
   .mycontainer--form {
     margin-right: 10px;
     margin-left: 10px;
   }
+
   .our-expertise {
     padding-top: 0px;
   }
+
   .image-logo-navbar {
     margin: 15px 0px;
   }
+
   .image-logo-hero {
     width: 70%;
   }
+
   .box-image {
     background-position: 50% 75%;
   }
+
   .box-image.innovation {
     background-image: url('../images/Hero-Innovation.jpg');
   }
+
   .box-image.staffing {
     background-image: url('../images/Hero-Staffing.jpg');
   }
+
   .image-logo-footer {
     margin: 15px 0px;
   }
+
   .accept-btn {
     width: 100px;
   }
@@ -1882,124 +1925,155 @@ blockquote {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .flex2col {
     width: 100%;
   }
+
   .h2--claim-hero {
     font-size: 40px;
     line-height: 45px;
   }
+
   .colorbox {
     margin-right: 15px;
     margin-bottom: 15px;
     margin-left: 10px;
   }
+
   .flex3col {
     width: 100%;
   }
+
   .cta-button.ghost-button {
     padding: 9px;
     font-size: 18px;
     line-height: 29px;
   }
+
   .cta-button.ghost-button-form {
     font-size: 22px;
     line-height: 30px;
   }
+
   .h1--logo-name-navbar {
     padding-left: 0px;
     font-size: 18px;
   }
+
   .brand {
     padding-left: 0px;
   }
+
   .hero-wrapper {
     margin-top: 140px;
   }
+
   .mycontainer--logo-name-hero {
     margin-top: 70px;
   }
+
   .heading-2 {
     padding-top: 20px;
     padding-bottom: 10px;
     font-size: 50px;
     line-height: 60px;
   }
+
   .h1--logo-name-footer {
     font-size: 22px;
     line-height: 25px;
   }
+
   .h2--inverse {
     font-size: 50px;
     line-height: 60px;
   }
+
   .h5-inverse {
     margin-bottom: 10px;
     font-size: 22px;
     line-height: 25px;
   }
+
   .grid {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
+
   .arrowdown {
     width: 60%;
   }
+
   .flexcolwrap--hero {
     height: 80vh;
   }
+
   .mysection {
     margin-top: 20px;
   }
+
   .text-field-form {
     font-size: 22px;
     line-height: 30px;
   }
+
   .cta-box-home {
     margin-bottom: 20px;
   }
+
   .h3--claim-sub {
     margin-top: -10px;
     font-size: 27px;
     line-height: 35px;
   }
+
   .h2--package-header {
     font-size: 40px;
     line-height: 50px;
   }
+
   .grid-3-columns-footer {
     grid-column-gap: 20px;
     -ms-grid-columns: 40% 1fr 1fr;
     grid-template-columns: 40% 1fr 1fr;
   }
+
   .p-normal.p-form {
     display: none;
   }
+
   .heading-1 {
     font-size: 60px;
     line-height: 70px;
   }
+
   .h1--logo-font-navbar {
     font-size: 30px;
     line-height: 60px;
     letter-spacing: 0.07em;
   }
+
   .h1--logo-font-navbar._2 {
     margin-right: -7px;
   }
+
   .image-logo-navbar {
     margin-top: 15px;
     margin-right: 0px;
     margin-bottom: 15px;
   }
+
   .image-logo-hero {
     width: 80%;
   }
+
   .image-logo-footer {
     margin-top: 15px;
     margin-right: 0px;
     margin-bottom: 15px;
   }
+
   .accept-btn {
     width: 140px;
   }
@@ -2010,41 +2084,51 @@ blockquote {
     font-size: 35px;
     line-height: 38px;
   }
+
   h2 {
     font-size: 30px;
     line-height: 33px;
   }
+
   h3 {
     font-size: 25px;
     line-height: 31px;
   }
+
   h4 {
     font-size: 21px;
     line-height: 26px;
   }
+
   h5 {
     font-size: 16px;
     line-height: 22px;
   }
+
   p {
     margin-bottom: 15px;
     font-size: 15px;
     line-height: 25px;
   }
+
   a {
     font-size: 15px;
   }
+
   .h2--claim-hero {
     font-size: 35px;
     line-height: 40px;
   }
+
   .small-p {
     font-size: 13px;
     line-height: 22px;
   }
+
   .cta-button {
     font-size: 15px;
   }
+
   .cta-button.ghost-button {
     width: 80%;
     border-color: #f27127;
@@ -2052,88 +2136,110 @@ blockquote {
     font-size: 20px;
     line-height: 22px;
   }
+
   .cta-button.ghost-button-form {
     padding: 10px;
     color: #f7f7f9;
   }
+
   .link {
     font-size: 18px;
     line-height: 22px;
   }
+
   .h1--logo-name-navbar {
     font-size: 18px;
   }
+
   .mycontainer--logo-name-hero {
     margin-top: 90px;
   }
+
   .heading-2 {
     font-size: 30px;
     line-height: 40px;
   }
+
   .copyright {
     margin-top: 10px;
     padding-bottom: 10px;
     font-size: 12px;
     line-height: 25px;
   }
+
   .hero-sub {
     height: 260px;
     min-height: 260px;
   }
+
   .hero-sub.hero-bootcamp {
     height: 260px;
     min-height: 260px;
   }
+
   .hero-wrapper-sub {
     margin-top: 80px;
   }
+
   .h2--inverse {
     font-size: 30px;
     line-height: 40px;
   }
+
   .p--inverse {
     font-size: 18px;
     line-height: 22px;
   }
+
   .section-hero-sub {
     height: 260px;
   }
+
   .grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
   .hero-contact-success {
     min-height: 60vh;
     background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent)), url('../images/Hero-Contact-Success.jpg');
     background-image: linear-gradient(180deg, transparent, transparent), url('../images/Hero-Contact-Success.jpg');
     background-position: 0px 0px, 50% 50%;
   }
+
   .arrowdown {
     width: 60%;
   }
+
   .flexcolwrap--hero {
     height: 70vh;
   }
+
   .mysection {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   .p--very-small {
     font-size: 14px;
     line-height: 18px;
   }
+
   .form-box {
     padding: 0px;
     box-shadow: none;
   }
+
   .h3--claim-sub {
     font-size: 20px;
     line-height: 25px;
   }
+
   .sub-header-bold {
     font-size: 20px;
     line-height: 22px;
   }
+
   .h2--package-header {
     margin-bottom: 5px;
     padding-top: 10px;
@@ -2141,136 +2247,167 @@ blockquote {
     font-size: 25px;
     line-height: 35px;
   }
+
   .fake-button {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
     line-height: 22px;
   }
+
   .grid-column-image {
     padding: 0px;
   }
+
   .link-small {
     display: block;
     font-size: 13px;
     line-height: 22px;
   }
+
   .footer-column {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   .grid-3-columns-footer {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     -ms-grid-columns: 100%;
     grid-template-columns: 100%;
   }
+
   .link-social {
     font-size: 24px;
     line-height: 25px;
   }
+
   .social-link {
     padding-right: 5px;
     padding-left: 5px;
   }
+
   .link-email {
     font-size: 24px;
     line-height: 25px;
   }
+
   .profile-picture-block {
     width: 140px;
     min-width: 140px;
   }
+
   .grid-2-columns-founders {
     grid-column-gap: 10px;
   }
+
   .grid-2-to-1-column {
     margin-right: 0px;
     margin-left: 0px;
   }
+
   .grid-3-to-1-column {
     margin-top: 0px;
     margin-bottom: 0px;
     grid-column-gap: 0px;
     grid-row-gap: 30px;
   }
+
   .table-services {
     margin-top: 0px;
     margin-right: 10px;
     margin-left: 10px;
   }
+
   .bold-text {
     font-size: 18px;
     line-height: 22px;
     font-weight: 600;
   }
+
   .p-normal {
     margin-top: 0px;
     font-size: 18px;
     line-height: 22px;
   }
+
   .heading-1 {
     margin-top: 20px;
     font-size: 35px;
     line-height: 45px;
   }
+
   .l-normal {
     padding-left: 20px;
     font-size: 20px;
     line-height: 22px;
   }
+
   .staffing-checkboxes {
     margin-top: 20px;
     margin-left: 0px;
   }
+
   .li-normal {
     font-size: 18px;
     line-height: 22px;
   }
+
   .mysection-404 {
     margin-bottom: 0px;
     background-position: 20% 10%;
   }
+
   .our-expertise {
     padding: 0px;
   }
+
   .h1--logo-font-navbar {
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.1em;
   }
+
   .h1--logo-font-navbar._2 {
     margin-right: -3px;
   }
+
   .image-logo-hero {
     width: 90%;
   }
+
   .li-small-2 {
     font-size: 13px;
     line-height: 22px;
   }
+
   .l-small-2 {
     padding-left: 20px;
   }
+
   .link-small-2 {
     display: block;
     font-size: 13px;
     line-height: 22px;
   }
+
   .p-normal-2 {
     margin-top: 0px;
     font-size: 18px;
     line-height: 22px;
   }
+
   .cookie-window {
     padding-right: 10px;
     padding-left: 10px;
   }
+
   .link-small-green {
     display: block;
     font-size: 14px;
     line-height: 18px;
   }
+
   .accept-btn {
     width: 160px;
   }
