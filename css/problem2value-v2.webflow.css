@@ -43,7 +43,7 @@
 }
 
 a {
-  color: #264653;
+  color: var(--main-font-color);
   text-decoration: underline;
 }
 
@@ -321,7 +321,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   padding: 0px 20px;
-  color: #264653;
+  color: var(--main-font-color);
   font-size: 20px;
   line-height: 40px;
 }
@@ -1514,7 +1514,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #264653;
+  background-color: var(--claim-background);
 }
 
 .blog-home-featured {
@@ -1678,7 +1678,7 @@ a {
 
 @media screen and (min-width: 1920px) {
   .our-container {
-    color: #264653;
+    color: var(--main-font-color);
   }
 
   .grid-services {
@@ -1698,7 +1698,7 @@ a {
   }
 
   .testimonial-header {
-    color: #264653;
+    color: var(--main-font-color);
   }
 
   .testimonials {
