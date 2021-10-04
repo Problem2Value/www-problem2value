@@ -607,7 +607,7 @@ a {
 .testimonial {
   padding: 20px;
   border-radius: 20px;
-  background-color: var(--second-background);
+  background-color: var(--accent-background);
   box-shadow: 1px 1px 3px 0 #000;
 }
 
@@ -1242,6 +1242,7 @@ a {
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
+  color: var(--main-font-color);
 }
 
 .navbar-2 {
@@ -1447,7 +1448,7 @@ a {
 .blog-home-teaser {
   margin: 20px;
   font-family: "Barlow Semi Condensed", sans-serif;
-  color: #817f97;
+  color: var(--second-font-color);
   font-size: 24px;
   line-height: 35px;
 }
@@ -1455,7 +1456,7 @@ a {
 .list-services {
   margin-top: 20px;
   padding-right: 20px;
-  color: #817f97;
+  color: var(--second-font-color);
 }
 
 .li-services {
@@ -1466,7 +1467,7 @@ a {
 }
 
 .image-label {
-  color: #817f97;
+  color: var(--second-font-color);
   font-size: 16px;
   text-align: center;
 }
