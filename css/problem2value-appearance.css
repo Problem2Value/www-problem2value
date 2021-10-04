@@ -42,11 +42,6 @@
   grid-column-gap: 16px;
 }
 
-a {
-  color: #264653;
-  text-decoration: underline;
-}
-
 .heading {
   margin-bottom: 20px;
   font-size: 64px;
@@ -149,6 +144,7 @@ a {
 }
 
 .p2v-claim {
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 45px;
   line-height: 50px;
   text-align: center;
@@ -457,7 +453,7 @@ a {
   grid-template-rows: auto;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: var(--second-background);
+  background-color: #fff;
 }
 
 .principle {
@@ -467,22 +463,23 @@ a {
 .principle-header {
   height: 40px;
   padding: 20px 50px 10px;
+  background-color: #f5b461;
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 40px;
   line-height: 50px;
   text-align: center;
 }
 
 .principle-header.left-top {
+  height: 40px;
   background-color: #00a8e7;
+  background-image: none;
 }
 
 .principle-header.right-top {
   border-top-right-radius: 20px;
   background-color: #db7363;
-}
-
-.principle-header.left-bottom {
-  background-color: #f5b461;
+  background-image: none;
 }
 
 .principle-header.right-bottom {
@@ -493,10 +490,24 @@ a {
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 20px 20px 10px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #817f97;
   font-size: 18px;
   line-height: 25px;
   font-weight: 300;
   text-align: left;
+}
+
+.text-span-2 {
+  color: #db7363;
+}
+
+.text-span-3 {
+  color: #f5b461;
+}
+
+.text-span-4 {
+  color: #2a9d8f;
 }
 
 .training-benefits-content {
@@ -544,6 +555,22 @@ a {
 
 .training-benefits-description {
   padding: 0px 15px 15px;
+}
+
+.service-item-link-name {
+  color: #264653;
+}
+
+.service-item-link-icon {
+  color: #00a8e7;
+}
+
+.service-item-link-icon.ml3 {
+  color: #2a9d8f;
+}
+
+.our-link {
+  text-decoration: none;
 }
 
 .testimonial-header {
@@ -607,12 +634,11 @@ a {
 .testimonial {
   padding: 20px;
   border-radius: 20px;
-  background-color: var(--second-background);
   box-shadow: 1px 1px 3px 0 #000;
 }
 
 .testimonial-person-roles {
-  color: var(--second-font-color);
+  color: #817f97;
   line-height: 20px;
   font-weight: 400;
 }
@@ -647,7 +673,7 @@ a {
 }
 
 .testimonial-person-country {
-  color: var(--second-background);
+  color: #817f97;
   line-height: 20px;
   font-weight: 400;
 }
@@ -676,6 +702,7 @@ a {
 
 .section-header-testimonials {
   padding-bottom: 20px;
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 35px;
   line-height: 50px;
   font-weight: 400;
@@ -766,15 +793,6 @@ a {
 }
 
 .blog-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
   border-radius: 20px;
   box-shadow: 0 1px 9px 0 #414040;
   text-decoration: none;
@@ -792,7 +810,7 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 20px 20px 0px 0px;
-  background-color: var(--second-background);
+  background-color: #fff;
 }
 
 .blog-item-content {
@@ -825,10 +843,14 @@ a {
   background-color: #d3d3d3;
 }
 
+.blog-item-title-wrapper {
+  color: #264653;
+}
+
 .blog-item-title {
   margin-right: 20px;
   margin-left: 20px;
-  color: var(--main-font-color);
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 30px;
   line-height: 40px;
   font-weight: 600;
@@ -836,9 +858,10 @@ a {
 
 .blog-teaser {
   margin: 20px;
-  color: var(--second-font-color);
-  font-size: 24px;
-  line-height: 30px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #817f97;
+  font-size: 26px;
+  line-height: 40px;
 }
 
 .blog-image {
@@ -891,7 +914,7 @@ a {
 }
 
 .blog-image._2019-01 {
-  background-image: url("../images/blog-onepagesoptions.png");
+  background-image: url("../images/blog-whatcanvas.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -930,7 +953,7 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: var(--claim-background);
+  background-color: #264653;
 }
 
 .footer-wrapper {
@@ -1096,20 +1119,8 @@ a {
 }
 
 .section-hero-sub {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   height: 360px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: var(--claim-background);
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -1135,7 +1146,7 @@ a {
 }
 
 .hero-sub.hero-privacy {
-  background-color: var(--claim-background);
+  background-color: #264653;
 }
 
 .hero-wrapper-sub {
@@ -1216,7 +1227,7 @@ a {
   position: sticky;
   top: 0px;
   z-index: 9999;
-  background-color: var(--second-background);
+  background-color: var(--second-body-background);
 }
 
 .nav-menu {
@@ -1248,7 +1259,7 @@ a {
   top: 0px;
 }
 
-.container-hero-sub {
+.container-hero-blog {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1261,7 +1272,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: var(--claim-background);
+  background-color: #264653;
   font-weight: 400;
 }
 
@@ -1270,6 +1281,7 @@ a {
 }
 
 .paragraph-dark {
+  font-family: Barlow, sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 25px;
@@ -1315,7 +1327,6 @@ a {
 
 .blog-article-image {
   width: 100%;
-  margin-bottom: 40px;
 }
 
 .problem-process-services {
@@ -1336,18 +1347,19 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: var(--testimonial-background);
+  background-color: #2a9d8f;
 }
 
 .principles-left {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: var(--accent-background);
+  background-color: #335f70;
 }
 
 .principle-name-title {
   margin-right: auto;
   margin-left: auto;
+  color: #264653;
   font-size: 24px;
   line-height: 30px;
   font-weight: 600;
@@ -1358,7 +1370,7 @@ a {
   margin: 60px;
 }
 
-.logo-dark {
+.image-5 {
   height: 40px;
 }
 
@@ -1552,7 +1564,6 @@ a {
 }
 
 .blog-article-image-credits {
-  margin-top: -30px;
   margin-bottom: 20px;
   color: #817f97;
   font-weight: 400;
@@ -1565,17 +1576,13 @@ a {
   line-height: 35px;
 }
 
-.blog-article-list {
-  padding-left: 30px;
-}
-
 .blog-item-link {
   border-radius: 20px;
   box-shadow: 0 1px 9px 0 #414040;
   text-decoration: none;
 }
 
-.ml0-icon {
+.ml-icon {
   color: #00a8e7;
 }
 
@@ -1610,27 +1617,6 @@ a {
 .back-to-label {
   padding-left: 10px;
   color: #264653;
-}
-
-.references {
-  width: 90%;
-  margin-top: 60px;
-}
-
-.ref-p {
-  font-size: 18px;
-  line-height: 30px;
-}
-
-.blog-p-quote {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  border-left: 5px solid #264653;
-  font-size: 25px;
-  line-height: 35px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2263,7 +2249,7 @@ a {
     margin: 20px 10px;
   }
 
-  .logo-dark {
+  .image-5 {
     height: 20px;
   }
 
