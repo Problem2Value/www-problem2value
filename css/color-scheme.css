@@ -1,0 +1,28 @@
+:root {
+  /* background colors */
+  --main-body-background: #f0eeee;
+  --second-body-background: #ffffff;
+ 
+  /* font colors */
+  --main-font-color: #264653;
+  --second-font-color: #817f97;
+
+  /* our 4 maturity level colors */
+  --ml0-blue: #00a8e7;
+  --ml1-red: #db7363;
+  --ml2-amber: #f5b461;
+  --ml3-green: #2a9d8f;
+
+  --light-grey: #d3d3d3;
+
+  /* CTA button */
+  --cta-button-color: #fe4a49;
+  --cta-button-label-color: #ffffff;
+
+  --dark-slate-grey-lighter: #335f70;
+
+
+
+}
+}
+
