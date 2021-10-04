@@ -1,28 +1,31 @@
-:root {
-  /* background colors */
-  --main-body-background: #f0eeee;
-  --second-body-background: #ffffff;
- 
-  /* font colors */
-  --main-font-color: #264653;
-  --second-font-color: #817f97;
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* background colors */
+    --main-body-background: #1a1a1b;
+    --second-body-background: #030303;
+    --claim-background: #1a1a1b;
+    --testimonial-background: #1a1a1b;
+    --accent-background: #505050;
 
-  /* our 4 maturity level colors */
-  --ml0-blue: #00a8e7;
-  --ml1-red: #db7363;
-  --ml2-amber: #f5b461;
-  --ml3-green: #2a9d8f;
-
-  --light-grey: #d3d3d3;
-
-  /* CTA button */
-  --cta-button-color: #fe4a49;
-  --cta-button-label-color: #ffffff;
-
-  --dark-slate-grey-lighter: #335f70;
-
-
-
-}
+    /* font colors */
+    --main-font-color: #ffffff;
+    --second-font-color: #817f97;
+    --inverted-font-color: #ffffff;
+  }
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    /* background colors */
+    --main-body-background: #f0eeee;
+    --second-body-background: #ffffff;
+    --claim-background: #264653;
+    --testimonial-background: #2a9d8f;
+    --accent-background: #335f70;
+
+    /* font colors */
+    --main-font-color: #264653;
+    --second-font-color: #817f97;
+    --inverted-font-color: #ffffff;
+  }
+}
