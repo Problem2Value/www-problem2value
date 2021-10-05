@@ -3,8 +3,8 @@
     /* background colors */
     --main-background: #1a1a1b;
     --second-background: #030303;
-    --claim-background: #1a1a1b;
-    --testimonial-background: #1a1a1b;
+    --claim-background: #4f4f4f;
+    --testimonial-background: #343434;
     --accent-background: #505050;
 
     /* font colors */
@@ -607,7 +607,7 @@ a {
 .testimonial {
   padding: 20px;
   border-radius: 20px;
-  background-color: var(--second-background);
+  background-color: var(--testimonial-background);
   box-shadow: 1px 1px 3px 0 #000;
 }
 
