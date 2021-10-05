@@ -607,7 +607,7 @@ a {
 .testimonial {
   padding: 20px;
   border-radius: 20px;
-  background-color: var(--accent-background);
+  background-color: var(--second-background);
   box-shadow: 1px 1px 3px 0 #000;
 }
 
