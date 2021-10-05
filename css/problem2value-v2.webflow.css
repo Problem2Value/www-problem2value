@@ -4,8 +4,8 @@
     --main-background: #1a1c20;
     --second-background: #0e0f12;
     --item-background: #2e2f32;
-    --claim-background: #1a1c20;
-    --testimonial-background: #1a1c20;
+    --claim-background: #0e0f12;
+    --testimonial-background: #0e0f12;
     --footer-background: #0e0f12;
     --accent-background: #1a1c20;
     --dark-content-background: #2e2f32;
@@ -1392,6 +1392,7 @@ a {
   border-radius: 20px;
   box-shadow: 0 1px 9px 0 #414040;
   text-decoration: none;
+  background-color: var(--second-background);
 }
 
 .blog-home-detail {
@@ -1399,7 +1400,7 @@ a {
 }
 
 .blog-home-title-wrapper {
-  color: #264653;
+  color: var(--main-font-color);
 }
 
 .blog-home-title {
