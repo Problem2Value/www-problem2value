@@ -312,7 +312,7 @@ a {
   -ms-flex: 1;
   flex: 1;
   border-radius: 0px 0px 20px 20px;
-  background-color: var(--accent-background);
+  background-color: var(--second-background);
 }
 
 .service-time {
