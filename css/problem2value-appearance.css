@@ -3,8 +3,8 @@
     /* background colors */
     --main-background: #1a1a1b;
     --second-background: #030303;
-    --claim-background: #1a1a1b;
-    --testimonial-background: #1a1a1b;
+    --claim-background: #264653;
+    --testimonial-background: #264653;
     --accent-background: #505050;
 
     /* font colors */
@@ -29,7 +29,6 @@
     --inverted-font-color: #ffffff;
   }
 }
-
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -43,7 +42,6 @@
 }
 
 a {
-  color: var(--main-font-color);
   text-decoration: underline;
 }
 
@@ -321,7 +319,6 @@ a {
   display: -ms-flexbox;
   display: flex;
   padding: 0px 20px;
-  color: var(--main-font-color);
   font-size: 20px;
   line-height: 40px;
 }
@@ -607,11 +604,11 @@ a {
 .testimonial {
   padding: 20px;
   border-radius: 20px;
-  background-color: var(--second-background);
+  background-color: var(--testimonial-background);
   box-shadow: 1px 1px 3px 0 #000;
 }
 
-.testimonial-person-roles {
+.testimonial-person-header {
   color: var(--second-font-color);
   line-height: 20px;
   font-weight: 400;
@@ -644,12 +641,6 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.testimonial-person-country {
-  color: var(--second-background);
-  line-height: 20px;
-  font-weight: 400;
 }
 
 .testimonials {
@@ -1090,7 +1081,7 @@ a {
 }
 
 .link-small-2 {
-  color: #2a9d8f;
+  color: var(--testimonial-background);
   font-size: 18px;
   line-height: 24px;
 }
@@ -1246,6 +1237,7 @@ a {
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   align-self: stretch;
+  color: var(--main-font-color);
 }
 
 .navbar-item.w--current {
@@ -1340,7 +1332,7 @@ a {
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  padding: 10px 30px;
+  padding: 40px 30px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1376,7 +1368,7 @@ a {
   margin-bottom: 0px;
   padding-top: 20px;
   padding-bottom: 10px;
-  color: #817f97;
+  color: var(--second-font-color);
   font-size: 18px;
   line-height: 25px;
   font-weight: 300;
@@ -1550,20 +1542,20 @@ a {
   margin-right: 20px;
   margin-bottom: 10px;
   font-family: "Barlow Semi Condensed", sans-serif;
-  color: #817f97;
+  color: var(--second-font-color);
   font-size: 16px;
   line-height: 35px;
 }
 
 .blog-article-date {
-  color: #2a9d8f;
+  color: var(--testimonial-background);
   font-weight: 600;
 }
 
 .blog-article-image-credits {
   margin-top: -30px;
   margin-bottom: 20px;
-  color: #817f97;
+  color: var(--second-font-color);
   font-weight: 400;
 }
 
