@@ -3,8 +3,9 @@
     /* background colors */
     --main-background: #1a1c20;
     --second-background: #0e0f12;
-    --claim-background: #2e2f32;
-    --testimonial-background: #264653;
+    --item-background: #2e2f32;
+    --claim-background: #1a1c20;
+    --testimonial-background: #1a1c20;
     --footer-background: #0e0f12;
     --accent-background: #1a1c20;
     --dark-content-background: #2e2f32;
@@ -22,6 +23,7 @@
     /* background colors */
     --main-background: #f0eeee;
     --second-background: #ffffff;
+    --item-background: #ffffff;
     --claim-background: #264653;
     --testimonial-background: #2a9d8f;
     --footer-background: #0e0f12;
@@ -327,7 +329,7 @@ a {
   -ms-flex: 1;
   flex: 1;
   border-radius: 0px 0px 20px 20px;
-  background-color: var(--second-background);
+  background-color: var(--item-background);
 }
 
 .service-time {
@@ -620,7 +622,7 @@ a {
 .testimonial {
   padding: 20px;
   border-radius: 20px;
-  background-color: var(--second-background);
+  background-color: var(--item-background);
   box-shadow: 1px 1px 3px 0 #000;
 }
 
@@ -799,7 +801,7 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 20px 20px 0px 0px;
-  background-color: var(--second-background);
+  background-color: var(--item-background);
 }
 
 .blog-item-content {
