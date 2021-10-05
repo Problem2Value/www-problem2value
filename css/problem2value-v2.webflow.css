@@ -471,7 +471,7 @@ a {
   grid-template-rows: auto;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: var(--second-background);
+  background-color: var(--dark-content-background);
 }
 
 .principle {
@@ -620,7 +620,7 @@ a {
 .testimonial {
   padding: 20px;
   border-radius: 20px;
-  background-color: var(--testimonial-background);
+  background-color: var(--second-background);
   box-shadow: 1px 1px 3px 0 #000;
 }
 
@@ -1480,7 +1480,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: var(--claim-background);
+  background-color: var(--footer-background);
 }
 
 .blog-home-featured {
