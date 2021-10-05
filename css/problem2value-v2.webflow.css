@@ -83,7 +83,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #var(--second-background);
+  background-color: var(--second-background);
   font-weight: 400;
 }
 
@@ -937,7 +937,7 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #var(--footer-background);
+  background-color: var(--footer-background);
 }
 
 .footer-wrapper {
@@ -1333,7 +1333,7 @@ a {
   margin-bottom: 0px;
   padding-top: 20px;
   padding-bottom: 10px;
-  color: #var(--second-font-color);
+  color: var(--second-font-color);
   font-size: 18px;
   line-height: 25px;
   font-weight: 300;
