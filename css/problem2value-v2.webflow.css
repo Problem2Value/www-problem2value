@@ -860,10 +860,6 @@ a {
 .blog-image {
   width: 100%;
   height: 100%;
-  background-image: url("../images/blog-innovationspectrum.png");
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .blog-image._2021-04 {
@@ -914,7 +910,7 @@ a {
 }
 
 .blog-image._2018-08 {
-  background-image: url("../images/blog-businessblueprint.png");
+  background-image: url("../images/blog-qsproblemsolutionspace.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -972,7 +968,7 @@ a {
 
 .footer-copyright {
   color: #d3d3d3;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 100;
   text-align: center;
@@ -984,9 +980,9 @@ a {
 
 .footer-legal-item-text {
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
-  font-weight: 100;
+  font-weight: 300;
   text-align: center;
   text-decoration: none;
 }
@@ -1133,8 +1129,6 @@ a {
 
 .hero-wrapper-sub {
   display: block;
-  width: 100%;
-  height: auto;
   margin-top: 80px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1176,6 +1170,10 @@ a {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .fake-button-red-menu {
@@ -1616,7 +1614,7 @@ a {
   width: 100%;
 }
 
-.heading-ight {
+.heading-light {
   margin-bottom: 20px;
   font-size: 64px;
   line-height: 70px;
@@ -1928,7 +1926,7 @@ a {
     font-size: 22px;
   }
 
-  .heading-ight {
+  .heading-light {
     font-size: 50px;
     line-height: 60px;
   }
@@ -2046,7 +2044,7 @@ a {
     border-left-width: 2px;
   }
 
-  .heading-ight {
+  .heading-light {
     font-size: 45px;
     line-height: 50px;
   }
@@ -2365,7 +2363,7 @@ a {
     line-height: 25px;
   }
 
-  .heading-ight {
+  .heading-light {
     font-size: 40px;
     line-height: 45px;
   }
