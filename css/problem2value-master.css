@@ -14,7 +14,7 @@
     --main-font-color: #ffffff;
     --second-font-color: #b5b5b5;
     --inverted-font-color: #ffffff;
-    --link-font-color: #817f97;
+    --link-font-color: #c2c2c2;
     --pill-font-color: #264653;
 
     /* logo font color */
@@ -69,6 +69,7 @@ h1 {
 a {
   color: var(--link-font-color);
   text-decoration: underline;
+  word-wrap: break-word;
 }
 
 .heading-dark {
@@ -1584,7 +1585,7 @@ a {
 
 .back-to-label {
   padding-left: 10px;
-  color: #264653;
+  color: var(--main-font-color);
 }
 
 .references {
