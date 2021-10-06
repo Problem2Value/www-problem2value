@@ -15,6 +15,7 @@
     --second-font-color: #b5b5b5;
     --inverted-font-color: #ffffff;
     --link-font-color: #817f97;
+    --pill-font-color: #264653;
   }
 }
 
@@ -35,6 +36,7 @@
     --second-font-color: #817f97;
     --inverted-font-color: #ffffff;
     --link-font-color: #2a9d8f;
+    --pill-font-color: #264653;
   }
 }
 
@@ -60,7 +62,7 @@ h1 {
 
 a {
   color: var(--link-font-color);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .heading-dark {
@@ -332,12 +334,13 @@ a {
   background-color: var(--item-background);
 }
 
-.service-time {
+.pill-text {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   padding: 0px 20px;
+  color: var(--pill-font-color);
   font-size: 20px;
   line-height: 40px;
 }
@@ -828,7 +831,7 @@ a {
   display: flex;
 }
 
-.blog-date-button {
+.pill-button {
   margin: 20px 40px 20px 20px;
   border-radius: 15px;
   background-color: #d3d3d3;
@@ -1309,7 +1312,7 @@ a {
 .principles-left {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: var(--accent-background);
+  background-color: var(--accent-background) 0;
 }
 
 .principle-name-title {
@@ -1390,9 +1393,9 @@ a {
 
 .blog-home-item {
   border-radius: 20px;
+  background-color: var(--second-background);
   box-shadow: 0 1px 9px 0 #414040;
   text-decoration: none;
-  background-color: var(--second-background);
 }
 
 .blog-home-detail {
@@ -1902,7 +1905,7 @@ a {
     line-height: 25px;
   }
 
-  .service-time {
+  .pill-text {
     font-size: 18px;
     line-height: 30px;
   }
