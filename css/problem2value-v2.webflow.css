@@ -1308,7 +1308,7 @@ a {
 .principles-left {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: var(--accent-background) 0;
+  background-color: var(--accent-background);
 }
 
 .principle-name-title {
