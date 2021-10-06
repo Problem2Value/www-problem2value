@@ -1038,7 +1038,7 @@ a {
   width: 200px;
 }
 
-.grid-6 {
+.footer-grid {
   width: 100%;
   -ms-grid-columns: 2.5fr 1fr 1fr;
   grid-template-columns: 2.5fr 1fr 1fr;
@@ -1280,8 +1280,17 @@ a {
 }
 
 .blog-article-image {
-  width: 100%;
+  width: 80%;
+  max-width: 1400%;
   margin-bottom: 40px;
+}
+
+.blog-article-image.blog-image-80 {
+  width: 60%;
+}
+
+.blog-article-image.blog-image-smaller {
+  width: 40%;
 }
 
 .problem-process-services {
@@ -1527,8 +1536,8 @@ a {
 }
 
 .blog-article-list-item {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 25px;
   line-height: 35px;
 }
@@ -1834,6 +1843,32 @@ a {
     align-self: center;
   }
 
+  .blog-article-text {
+    width: 100%;
+  }
+
+  .blog-article-title {
+    font-size: 50px;
+    line-height: 65px;
+  }
+
+  .blog-article-heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .blog-p {
+    font-size: 22px;
+  }
+
+  .blog-article-image {
+    width: 100%;
+  }
+
+  .blog-article-image.blog-image-smaller {
+    width: 80%;
+  }
+
   .principles-left {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0px;
@@ -1865,6 +1900,10 @@ a {
     width: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .blog-article-date {
+    font-size: 16px;
   }
 
   .heading-ight {
@@ -1948,7 +1987,7 @@ a {
     width: auto;
   }
 
-  .grid-6 {
+  .footer-grid {
     -ms-grid-columns: 2.5fr;
     grid-template-columns: 2.5fr;
   }
@@ -2217,6 +2256,33 @@ a {
     margin-top: 80px;
   }
 
+  .blog-article-text {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .blog-article-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .blog-article-heading {
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .blog-p {
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .blog-article-image {
+    margin-bottom: 20px;
+  }
+
   .our-testimonials-container {
     padding: 20px 10px;
   }
@@ -2241,6 +2307,10 @@ a {
   .our-container-principles {
     margin-top: 0px;
     padding: 20px 10px;
+  }
+
+  .back-to-label {
+    display: none;
   }
 
   .heading-ight {
