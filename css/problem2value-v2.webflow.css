@@ -1515,7 +1515,7 @@ a {
 }
 
 .blog-article-date {
-  color: var(--testimonial-background);
+  color: var(link-font-color);
   font-weight: 600;
 }
 
