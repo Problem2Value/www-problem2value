@@ -930,6 +930,13 @@ a {
   background-repeat: no-repeat;
 }
 
+.blog-image._2021-10 {
+  background-image: url("../images/Blog-WebFlow.png");
+  background-position: 0% 0%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
 .our-footer {
   display: -webkit-box;
   display: -webkit-flex;
