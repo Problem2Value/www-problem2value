@@ -230,8 +230,6 @@ a {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-radius: 20px;
-  box-shadow: 0 1px 9px 0 #414040;
 }
 
 .service-item-header {
@@ -1705,8 +1703,7 @@ a {
 
   .our-container {
     width: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0px;
   }
 
   .p2v-claim {
@@ -1738,6 +1735,8 @@ a {
   }
 
   .grid-services {
+    margin-right: 10px;
+    margin-left: 10px;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     -ms-grid-columns: 1fr 1fr;
@@ -1783,6 +1782,11 @@ a {
   .testimonial-item {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  .testimonial {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .testimonials {
@@ -1868,6 +1872,11 @@ a {
   .grid-problem-process {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .blog-home-item {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .training-wrapper {
@@ -2045,7 +2054,7 @@ a {
 
   .our-container {
     margin-top: 0px;
-    padding: 20px 10px;
+    padding: 20px 0px;
   }
 
   .p2v-claim {
@@ -2298,6 +2307,11 @@ a {
     margin-bottom: 20px;
   }
 
+  .problem-process-services {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
   .our-testimonials-container {
     padding: 20px 10px;
   }
@@ -2317,6 +2331,22 @@ a {
 
   .blog-home-thumbnail {
     height: 200px;
+    padding: 0px;
+  }
+
+  .blog-home-item {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .blog-home-title {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .blog-home-teaser {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .our-container-principles {
