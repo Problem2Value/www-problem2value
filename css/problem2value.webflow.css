@@ -1599,6 +1599,30 @@ a {
   align-items: center;
 }
 
+.our-container-stages {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  max-width: 1880px;
+  margin: 40px auto;
+  padding: 60px 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 1280px) {
   .grid-hero {
     -ms-grid-columns: 1fr 1fr;
@@ -1683,6 +1707,10 @@ a {
   .our-container-training {
     color: #264653;
   }
+
+  .our-container-stages {
+    color: #264653;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1703,7 +1731,7 @@ a {
 
   .our-container {
     width: auto;
-    padding: 20px 0px;
+    padding: 20px 0px 0px;
   }
 
   .p2v-claim {
@@ -1734,13 +1762,33 @@ a {
     line-height: 35px;
   }
 
+  .service-item-header.ml0 {
+    border-radius: 0px;
+  }
+
+  .service-item-header.ml1 {
+    border-radius: 0px;
+  }
+
+  .service-item-header.ml2 {
+    border-radius: 0px;
+  }
+
+  .service-item-header.ml3 {
+    border-radius: 0px;
+  }
+
   .grid-services {
-    margin-right: 10px;
-    margin-left: 10px;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .service-item-content {
+    border-radius: 0px;
   }
 
   .cta-claim {
@@ -1753,6 +1801,8 @@ a {
   }
 
   .principles-grid {
+    padding-right: 10px;
+    padding-left: 10px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -1921,6 +1971,12 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
+  .our-container-stages {
+    width: auto;
+    margin-bottom: 0px;
+    padding: 20px 0px 0px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2054,7 +2110,7 @@ a {
 
   .our-container {
     margin-top: 0px;
-    padding: 20px 0px;
+    padding: 20px 10px;
   }
 
   .p2v-claim {
@@ -2132,7 +2188,7 @@ a {
   }
 
   .principles-grid {
-    padding: 40px 10px;
+    padding: 40px 0px;
   }
 
   .principles {
@@ -2179,6 +2235,18 @@ a {
   .training-benefits-description {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .testimonial-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .testimonial {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .testimonial-linkedin {
@@ -2384,6 +2452,11 @@ a {
     margin-top: 0px;
     padding: 20px 10px;
   }
+
+  .our-container-stages {
+    margin-top: 0px;
+    padding: 20px 0px 0px;
+  }
 }
 
 #w-node-_05ea04c9-e57a-9b31-9f33-7b0168cc9be5-6cf3e0b9 {
@@ -2431,12 +2504,5 @@ a {
   align-self: stretch;
   -ms-grid-column-align: stretch;
   justify-self: stretch;
-}
-
-@media screen and (max-width: 767px) {
-  #w-node-_1743f901-9047-8c52-0cec-e01838b437ae-38b437ab {
-    -ms-grid-column-align: center;
-    justify-self: center;
-  }
 }
 
