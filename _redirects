@@ -1,3 +1,0 @@
-# http and https need separate rules if you don’t force_ssl!
-http://blog.problem2value.com/* https://www.problem2value.com/blog/
-https://blog.problem2value.com/* https://www.problem2value.com/blog/
